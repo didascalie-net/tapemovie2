@@ -4,7 +4,7 @@ inputs 1
 outputs 1
 filename t_filt
 description "standard filter"
-element sw
+sw
 	address sw
 	description "on/off switch"
  	class parameter
@@ -16,9 +16,9 @@ element sw
 	clipmode both
 	ramp 0
 	rampfunction none
-element type
-	address type
-	description "filter types"
+mode
+	address mode
+	description "filter mode (type)"
  	class parameter
 	type enum
 	unit none
@@ -28,7 +28,7 @@ element type
 	clipmode both
 	ramp 0
 	rampfunction none
-element gainenable
+gainenable
 	address gainenable
 	description "filter gain enble"
  	class parameter
@@ -40,7 +40,7 @@ element gainenable
 	clipmode both
 	ramp 0
 	rampfunction none
-element freq
+freq
 	address freq
 	description "filter frequency"
  	class parameter
@@ -52,7 +52,7 @@ element freq
 	clipmode both
 	ramp 1
 	rampfunction exponential
-element gain
+gain
 	address gain
 	description "filter gain"
  	class parameter
@@ -64,7 +64,7 @@ element gain
 	clipmode both
 	ramp 1
 	rampfunction linear
-element q
+q
 	address q
 	description "filter q"
  	class parameter
@@ -76,7 +76,7 @@ element q
 	clipmode both
 	ramp 1
 	rampfunction exponential
-element vol
+vol
 	address vol
 	description "output volume"
  	class parameter
@@ -88,7 +88,7 @@ element vol
 	clipmode both
 	ramp 1
 	rampfunction exponential
-element volrand
+volrand
 	address volrand
 	description "random volume process"
  	class parameter
@@ -100,7 +100,7 @@ element volrand
 	clipmode none
 	ramp 0
 	rampfunction none
-element freqrand
+freqrand
 	address freqrand
 	description "random frequency process"
  	class parameter
