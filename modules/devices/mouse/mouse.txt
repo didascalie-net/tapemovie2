@@ -1,0 +1,39 @@
+address mouse
+tags device control
+filename tm_mouse
+description "mouse as controller"
+sw
+	address sw
+	description "on/off switch"
+ 	class parameter
+	type boolean
+	unit none
+	initval 0
+	range 0 1
+	repetition 0
+	clipmode both
+	ramp 0
+	rampfunction none
+x
+	address x
+	description "x axis mouse position"
+ 	class controller
+	type decimal
+	range 0 1
+	repetition 0
+	clipmode both
+y
+	address y
+	description "y axis mouse position"
+ 	class controller
+	type decimal
+	range 0 1
+	repetition 0
+	clipmode both
+button
+	address button
+	description "mouse button"
+ 	class controller
+	type boolean
+	range 0 1
+	repetition 0

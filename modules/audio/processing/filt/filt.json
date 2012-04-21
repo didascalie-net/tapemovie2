@@ -1,21 +1,22 @@
 {
 	"address" : [ "filt" ],
 	"tags" : [ "audio" ],
-	"inputs" : 1,
-	"outputs" : 1,
+	"inputs" : [ 1 ],
+	"outputs" : [ 1 ],
 	"filename" : [ "t_filt" ],
 	"description" : [ "standard filter" ],
 	"sw" : 	{
+		"mode" : [ "this", "or", "that" ],
 		"address" : [ "sw" ],
 		"description" : [ "on/off switch" ],
 		"class" : [ "parameter" ],
 		"type" : [ "boolean" ],
 		"unit" : [ "none" ],
-		"initval" : 0,
-		"range" : [ "0 1" ],
-		"repetition" : 0,
+		"initval" : [ 0 ],
+		"range" : [ 0, 1 ],
+		"repetition" : [ 0 ],
 		"clipmode" : [ "both" ],
-		"ramp" : 0,
+		"ramp" : [ 0 ],
 		"rampfunction" : [ "none" ]
 	}
 ,
@@ -26,10 +27,10 @@
 		"type" : [ "enum" ],
 		"unit" : [ "none" ],
 		"initval" : [ "lowpass" ],
-		"range" : [ "display lowpass highpass bandpass bandstop peaknotch lowshelf highshelf resonant allpass" ],
-		"repetition" : 0,
+		"range" : [ "display", "lowpass", "highpass", "bandpass", "bandstop", "peaknotch", "lowshelf", "highshelf", "resonant", "allpass" ],
+		"repetition" : [ 0 ],
 		"clipmode" : [ "both" ],
-		"ramp" : 0,
+		"ramp" : [ 0 ],
 		"rampfunction" : [ "none" ]
 	}
 ,
@@ -39,11 +40,11 @@
 		"class" : [ "parameter" ],
 		"type" : [ "boolean" ],
 		"unit" : [ "none" ],
-		"initval" : 0,
-		"range" : [ "0 1" ],
-		"repetition" : 0,
+		"initval" : [ 0 ],
+		"range" : [ 0, 1 ],
+		"repetition" : [ 0 ],
 		"clipmode" : [ "both" ],
-		"ramp" : 0,
+		"ramp" : [ 0 ],
 		"rampfunction" : [ "none" ]
 	}
 ,
@@ -53,11 +54,11 @@
 		"class" : [ "parameter" ],
 		"type" : [ "decimal" ],
 		"unit" : [ "Hz" ],
-		"initval" : 22050,
-		"range" : [ "20 22050" ],
-		"repetition" : 0,
+		"initval" : [ 22050 ],
+		"range" : [ 20, 22050 ],
+		"repetition" : [ 0 ],
 		"clipmode" : [ "both" ],
-		"ramp" : 1,
+		"ramp" : [ 1 ],
 		"rampfunction" : [ "exponential" ]
 	}
 ,
@@ -67,11 +68,11 @@
 		"class" : [ "parameter" ],
 		"type" : [ "decimal" ],
 		"unit" : [ "dB" ],
-		"initval" : 0,
-		"range" : [ "-24 24" ],
-		"repetition" : 0,
+		"initval" : [ 0 ],
+		"range" : [ -24, 24 ],
+		"repetition" : [ 0 ],
 		"clipmode" : [ "both" ],
-		"ramp" : 1,
+		"ramp" : [ 1 ],
 		"rampfunction" : [ "linear" ]
 	}
 ,
@@ -81,11 +82,11 @@
 		"class" : [ "parameter" ],
 		"type" : [ "decimal" ],
 		"unit" : [ "none" ],
-		"initval" : 0.707,
-		"range" : [ "0.01 25" ],
-		"repetition" : 0,
+		"initval" : [ 0.707 ],
+		"range" : [ 0.01, 25 ],
+		"repetition" : [ 0 ],
 		"clipmode" : [ "both" ],
-		"ramp" : 1,
+		"ramp" : [ 1 ],
 		"rampfunction" : [ "exponential" ]
 	}
 ,
@@ -95,11 +96,11 @@
 		"class" : [ "parameter" ],
 		"type" : [ "decimal" ],
 		"unit" : [ "none" ],
-		"initval" : 1,
-		"range" : [ "0 2" ],
-		"repetition" : 0,
+		"initval" : [ 1 ],
+		"range" : [ 0, 2 ],
+		"repetition" : [ 0 ],
 		"clipmode" : [ "both" ],
-		"ramp" : 1,
+		"ramp" : [ 1 ],
 		"rampfunction" : [ "exponential" ]
 	}
 ,
@@ -109,11 +110,11 @@
 		"class" : [ "parameter" ],
 		"type" : [ "array" ],
 		"unit" : [ "none" ],
-		"initval" : 0,
+		"initval" : [ 0 ],
 		"range" : [ "none" ],
-		"repetition" : 0,
+		"repetition" : [ 0 ],
 		"clipmode" : [ "none" ],
-		"ramp" : 0,
+		"ramp" : [ 0 ],
 		"rampfunction" : [ "none" ]
 	}
 ,
@@ -123,11 +124,11 @@
 		"class" : [ "parameter" ],
 		"type" : [ "array" ],
 		"unit" : [ "none" ],
-		"initval" : 0,
+		"initval" : [ 0 ],
 		"range" : [ "none" ],
-		"repetition" : 0,
+		"repetition" : [ 0 ],
 		"clipmode" : [ "none" ],
-		"ramp" : 0,
+		"ramp" : [ 0 ],
 		"rampfunction" : [ "none" ]
 	}
 

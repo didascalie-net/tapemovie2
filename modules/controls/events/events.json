@@ -1,49 +1,67 @@
 {
-	"tags" : "controls events",
-	"description" : "Events Manager",
-	"filename" : "span_events",
-	"address" : "events",    
-	"elements" : 	{
-		"sw" : 		{
-			"class" : "parameter",
-			"description" : "switch on or off the module",
-			"type" : "boolean",
-			"initval" : 0
-		}
+	"address" : [ "events" ],
+	"tags" : [ "control", "event" ],
+	"inputs" : [ 0 ],
+	"outputs" : [ 0 ],
+	"filename" : [ "span_events" ],
+	"description" : [ "Events Manager" ],
+	"sw" : 	{
+		"address" : [ "sw" ],
+		"description" : [ "on/off switch" ],
+		"class" : [ "parameter" ],
+		"type" : [ "boolean" ],
+		"initval" : [ 0 ],
+		"unit" : [ "none" ],
+		"range" : [ 0, 1 ],
+		"repetition" : [ 0 ],
+		"clipmode" : [ "both" ],
+		"ramp" : [ 0 ],
+		"rampfunction" : [ "none" ]
+	}
 ,
-		"localsend" : 		{
-			"class" : "parameter",
-			"description" : "switch on or off the localsend",
-			"type" : "boolean",
-			"initval" : 0
-		}
+	"localsend" : 	{
+		"address" : [ "localsend" ],
+		"description" : [ "switch on or off localsend" ],
+		"class" : [ "parameter" ],
+		"type" : [ "boolean" ],
+		"initval" : [ 1 ],
+		"unit" : [ "none" ],
+		"range" : [ 0, 1 ],
+		"repetition" : [ 0 ],
+		"clipmode" : [ "both" ],
+		"ramp" : [ 0 ],
+		"rampfunction" : [ "none" ]
+	}
 ,
-		"oscsendname" : 		{
-			"class" : "parameter",
-			"description" : "Adress to send the events to",
-			"type" : "string",
-			"initval" : "none"
-		}
+	"oscsendname" : 	{
+		"address" : [ "oscsendname" ],
+		"description" : [ "oscsend name to send the events to" ],
+		"class" : [ "parameter" ],
+		"type" : [ "string" ],
+		"initval" : [ "none" ]
+	}
 ,
-		"type" : 		{
-			"class" : "parameter",
-			"description" : "type of event to create",
-			"type" : "string",
-			"initval" : "empty"
-		}
+	"type" : 	{
+		"address" : [ "type" ],
+		"description" : [ "type of event to create" ],
+		"class" : [ "parameter" ],
+		"type" : [ "string" ],
+		"initval" : [ "empty" ]
+	}
 ,
-		"subfolder" : 		{
-			"class" : "parameter",
-			"description" : "subfolder to store events",
-			"type" : "string",
-			"initval" : "none"
-		}
+	"subfolder" : 	{
+		"address" : [ "subfolder" ],
+		"description" : [ "event storage subfolder" ],
+		"class" : [ "parameter" ],
+		"type" : [ "string" ],
+		"initval" : [ "none" ]
+	}
 ,
-		"create" : 		{
-			"class" : "message",
-			"description" : "create a message",
-			"type" : "bang"
-		}
+	"create" : 	{
+		"address" : [ "create" ],
+		"description" : [ "create an event" ],
+		"class" : [ "message" ],
+		"type" : [ "bang" ]
 	}
 
 }

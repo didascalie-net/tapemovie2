@@ -1,0 +1,53 @@
+address events
+tags control event
+inputs 0
+outputs 0
+filename span_events
+description "Events Manager"
+sw
+	address sw
+	description "on/off switch"
+ 	class parameter
+	type boolean
+	initval 0
+	unit none
+	range 0 1
+	repetition 0
+	clipmode both
+	ramp 0
+	rampfunction none
+localsend
+	address localsend
+	description "switch on or off localsend"
+ 	class parameter
+	type boolean
+	initval 1
+	unit none
+	range 0 1
+	repetition 0
+	clipmode both
+	ramp 0
+	rampfunction none
+oscsendname
+	address oscsendname
+	description "oscsend name to send the events to"
+ 	class parameter
+	type string
+	initval none
+type
+	address type
+	description "type of event to create"
+ 	class parameter
+	type string
+	initval empty
+subfolder
+	address subfolder
+	description "event storage subfolder"
+ 	class parameter
+	type string
+	initval none
+create
+	address create
+	description "create an event"
+ 	class message
+	type bang

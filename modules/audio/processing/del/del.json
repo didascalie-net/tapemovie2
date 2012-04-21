@@ -1,8 +1,8 @@
 {
 	"address" : [ "del" ],
 	"tags" : [ "audio" ],
-	"inputs" : 1,
-	"outputs" : 1,
+	"inputs" : [ 1 ],
+	"outputs" : [ 1 ],
 	"filename" : [ "t_del" ],
 	"description" : [ "standard delay" ],
 	"sw" : 	{
@@ -11,11 +11,11 @@
 		"class" : [ "parameter" ],
 		"type" : [ "boolean" ],
 		"unit" : [ "none" ],
-		"initval" : 0,
-		"range" : [ "0 1" ],
-		"repetition" : 0,
+		"initval" : [ 0 ],
+		"range" : [ 0, 1 ],
+		"repetition" : [ 0 ],
 		"clipmode" : [ "both" ],
-		"ramp" : 0,
+		"ramp" : [ 0 ],
 		"rampfunction" : [ "none" ]
 	}
 ,
@@ -25,11 +25,11 @@
 		"class" : [ "parameter" ],
 		"type" : [ "decimal" ],
 		"unit" : [ "ms" ],
-		"initval" : 0,
-		"range" : [ "0 30000" ],
-		"repetition" : 0,
+		"initval" : [ 0 ],
+		"range" : [ 0, 30000 ],
+		"repetition" : [ 0 ],
 		"clipmode" : [ "both" ],
-		"ramp" : 2,
+		"ramp" : [ 2 ],
 		"rampfunction" : [ "exponential" ]
 	}
 ,
@@ -39,11 +39,11 @@
 		"class" : [ "parameter" ],
 		"type" : [ "decimal" ],
 		"unit" : [ "factor" ],
-		"initval" : 0,
-		"range" : [ "0 1" ],
-		"repetition" : 0,
+		"initval" : [ 0 ],
+		"range" : [ 0, 1 ],
+		"repetition" : [ 0 ],
 		"clipmode" : [ "both" ],
-		"ramp" : 2,
+		"ramp" : [ 2 ],
 		"rampfunction" : [ "exponential" ]
 	}
 ,
@@ -53,11 +53,11 @@
 		"class" : [ "parameter" ],
 		"type" : [ "decimal" ],
 		"unit" : [ "none" ],
-		"initval" : 1,
-		"range" : [ "0 2" ],
-		"repetition" : 0,
+		"initval" : [ 1 ],
+		"range" : [ 0, 2 ],
+		"repetition" : [ 0 ],
 		"clipmode" : [ "both" ],
-		"ramp" : 1,
+		"ramp" : [ 1 ],
 		"rampfunction" : [ "exponential" ]
 	}
 ,
@@ -67,11 +67,11 @@
 		"class" : [ "parameter" ],
 		"type" : [ "array" ],
 		"unit" : [ "none" ],
-		"initval" : 0,
+		"initval" : [ 0 ],
 		"range" : [ "none" ],
-		"repetition" : 0,
+		"repetition" : [ 0 ],
 		"clipmode" : [ "none" ],
-		"ramp" : 0,
+		"ramp" : [ 0 ],
 		"rampfunction" : [ "none" ]
 	}
 ,
@@ -81,11 +81,11 @@
 		"class" : [ "parameter" ],
 		"type" : [ "array" ],
 		"unit" : [ "none" ],
-		"initval" : 0,
+		"initval" : [ 0 ],
 		"range" : [ "none" ],
-		"repetition" : 0,
+		"repetition" : [ 0 ],
 		"clipmode" : [ "none" ],
-		"ramp" : 0,
+		"ramp" : [ 0 ],
 		"rampfunction" : [ "none" ]
 	}
 ,
@@ -95,11 +95,11 @@
 		"class" : [ "parameter" ],
 		"type" : [ "array" ],
 		"unit" : [ "none" ],
-		"initval" : 0,
+		"initval" : [ 0 ],
 		"range" : [ "none" ],
-		"repetition" : 0,
+		"repetition" : [ 0 ],
 		"clipmode" : [ "none" ],
-		"ramp" : 0,
+		"ramp" : [ 0 ],
 		"rampfunction" : [ "none" ]
 	}
 

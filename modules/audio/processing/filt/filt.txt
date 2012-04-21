@@ -11,7 +11,7 @@ sw
 	type boolean
 	unit none
 	initval 0
-	range "0 1"
+	range 0 1
 	repetition 0
 	clipmode both
 	ramp 0
@@ -23,7 +23,7 @@ mode
 	type enum
 	unit none
 	initval lowpass
-	range "display lowpass highpass bandpass bandstop peaknotch lowshelf highshelf resonant allpass"
+	range display lowpass highpass bandpass bandstop peaknotch lowshelf highshelf resonant allpass
 	repetition 0
 	clipmode both
 	ramp 0
@@ -35,7 +35,7 @@ gainenable
 	type boolean
 	unit none
 	initval 0
-	range "0 1"
+	range 0 1
 	repetition 0
 	clipmode both
 	ramp 0
@@ -47,7 +47,7 @@ freq
 	type decimal
 	unit Hz
 	initval 22050
-	range "20 22050"
+	range 20 22050
 	repetition 0
 	clipmode both
 	ramp 1
@@ -59,7 +59,7 @@ gain
 	type decimal
 	unit dB
 	initval 0
-	range "-24 24"
+	range -24 24
 	repetition 0
 	clipmode both
 	ramp 1
@@ -71,7 +71,7 @@ q
 	type decimal
 	unit none
 	initval 0.707
-	range "0.01 25"
+	range 0.01 25
 	repetition 0
 	clipmode both
 	ramp 1
@@ -83,7 +83,7 @@ vol
 	type decimal
 	unit none
 	initval 1
-	range "0 2"
+	range 0 2
 	repetition 0
 	clipmode both
 	ramp 1
@@ -95,7 +95,7 @@ volrand
 	type array
 	unit none
 	initval 0
-	range "none"
+	range none
 	repetition 0
 	clipmode none
 	ramp 0
@@ -107,7 +107,7 @@ freqrand
 	type array
 	unit none
 	initval 0
-	range "none"
+	range none
 	repetition 0
 	clipmode none
 	ramp 0

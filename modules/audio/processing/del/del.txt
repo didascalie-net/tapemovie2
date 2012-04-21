@@ -11,7 +11,7 @@ sw
 	type boolean
 	unit none
 	initval 0
-	range "0 1"
+	range 0 1
 	repetition 0
 	clipmode both
 	ramp 0
@@ -23,7 +23,7 @@ time
 	type decimal
 	unit ms
 	initval 0
-	range "0 30000"
+	range 0 30000
 	repetition 0
 	clipmode both
 	ramp 2
@@ -35,7 +35,7 @@ fb
 	type decimal
 	unit factor
 	initval 0
-	range "0 1"
+	range 0 1
 	repetition 0
 	clipmode both
 	ramp 2
@@ -47,7 +47,7 @@ vol
 	type decimal
 	unit none
 	initval 1
-	range "0 2"
+	range 0 2
 	repetition 0
 	clipmode both
 	ramp 1
@@ -59,7 +59,7 @@ volrand
 	type array
 	unit none
 	initval 0
-	range "none"
+	range none
 	repetition 0
 	clipmode none
 	ramp 0
@@ -71,7 +71,7 @@ delrand
 	type array
 	unit none
 	initval 0
-	range "none"
+	range none
 	repetition 0
 	clipmode none
 	ramp 0
@@ -83,7 +83,7 @@ fbrand
 	type array
 	unit none
 	initval 0
-	range "none"
+	range none
 	repetition 0
 	clipmode none
 	ramp 0

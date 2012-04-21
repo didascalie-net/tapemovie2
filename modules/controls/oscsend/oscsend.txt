@@ -1,0 +1,52 @@
+address oscsend
+tags osc
+filename tm_oscsend
+description "send OSC messages"
+sw
+	address sw
+	description "on/off switch"
+ 	class parameter
+	type boolean
+	initval 0
+	unit none
+	range 0 1
+	repetition 0
+	clipmode both
+	ramp 0
+	rampfunction none
+host
+	address host
+	description "IP target address"
+ 	class parameter
+	type string
+	initval 127.0.0.1
+alias
+	address alias
+	description "oscsend alias name"
+ 	class parameter
+	type string
+	initval <none>
+print
+	address print
+	description "on/off print to Max window"
+ 	class parameter
+	type boolean
+	initval 0
+	unit none
+	range 0 1
+	repetition 0
+	clipmode both
+	ramp 0
+	rampfunction none
+port
+	address port
+	description "UDP port"
+ 	class parameter
+	type decimal
+	initval 8000
+	unit none
+	range 0 99999
+	repetition 0
+	clipmode both
+	ramp 0
+	rampfunction none
