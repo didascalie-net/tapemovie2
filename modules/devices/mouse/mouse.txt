@@ -1,3 +1,4 @@
+active 1
 address mouse
 tags device control
 filename tm_mouse

@@ -1,4 +1,5 @@
 {
+	"active" : [ 1 ],
 	"address" : [ "del" ],
 	"tags" : [ "audio" ],
 	"inputs" : [ 1 ],

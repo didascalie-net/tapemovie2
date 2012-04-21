@@ -1,3 +1,4 @@
+active 1
 address ctlmap
 tags control
 inputs 0

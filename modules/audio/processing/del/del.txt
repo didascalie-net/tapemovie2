@@ -1,3 +1,4 @@
+active 1
 address del
 tags audio
 inputs 1
@@ -5,9 +6,9 @@ outputs 1
 filename t_del
 description "standard delay"
 sw
-	address sw
+ address sw
 	description "on/off switch"
- 	class parameter
+	class parameter
 	type boolean
 	unit none
 	initval 0

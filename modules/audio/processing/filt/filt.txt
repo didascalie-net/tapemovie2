@@ -1,3 +1,4 @@
+active 1
 address filt
 tags audio
 inputs 1

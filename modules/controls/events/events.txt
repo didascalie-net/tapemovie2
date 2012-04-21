@@ -1,3 +1,4 @@
+active 1
 address events
 tags control event
 inputs 0

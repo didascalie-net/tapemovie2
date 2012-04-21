@@ -1,3 +1,4 @@
+active 1
 address oscsend
 tags osc
 filename tm_oscsend
