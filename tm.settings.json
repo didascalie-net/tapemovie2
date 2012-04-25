@@ -1,0 +1,22 @@
+{
+	"settings" : 	{
+		"info" : 		{
+			"name" : "span",
+			"licence" : "GNU-LGPL",
+			"status" : "alpha",
+			"credits" : "produced by didascalie.net & developped by Tom Mays & Renaud Rubiano",
+			"version" : 			{
+				"major" : 0,
+				"minor" : 0,
+				"revision" : 1
+			}
+
+		}
+,
+		"verbose" : 1,
+		"paths" : 		{
+
+		}
+
+	}
+}
