@@ -2,6 +2,8 @@
 	"preferences" : 	{
 		"projects" : 		{
 			"current" : 			{
+				"defaultproject" : "here:/there/projects1/Environ ments/didascalie-net/tapemovie2/projects/defaultproject/"
+
 
 			}
 ,
@@ -20,6 +22,4 @@
 		}
 
 	}
-,
-	"file" : ""
 }
