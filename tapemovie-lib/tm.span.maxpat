@@ -28,6 +28,20 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "int" ],
+					"patching_rect" : [ 53.0, 84.732941, 32.5, 18.0 ],
+					"text" : "t b 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"color" : [ 0.191071, 0.560324, 0.0, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -44,7 +58,7 @@
 							"revision" : 5
 						}
 ,
-						"rect" : [ 287.0, 44.0, 693.0, 585.0 ],
+						"rect" : [ 287.0, 44.0, 762.0, 614.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -73,7 +87,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 384.0625, 386.5, 287.0, 22.0 ],
+									"patching_rect" : [ 447.0625, 386.5, 287.0, 22.0 ],
 									"text" : "text backup of tapemovie-system-info contents just in case"
 								}
 
@@ -119,11 +133,11 @@
 													"fontsize" : 12.0,
 													"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"id" : "obj-2",
-													"linecount" : 18,
+													"linecount" : 20,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 43.0, 27.0, 497.0, 255.0 ],
+													"patching_rect" : [ 43.0, 27.0, 255.0, 283.0 ],
 													"text" : "{\n\t\"credits\" : \"produced by didascalie.net & developped by Tom Mays & Renaud Rubiano\",\n\t\"license\" : \"GNU-LGPL\",\n\t\"status\" : \"alpha\",\n\t\"version\" : {\n\t\t\"major\" : 2,\n\t\t\"minor\" : 0,\n\t\t\"revision\" : 0\n\t}\n,\n    \"preferences\" :\t{\n\t\t\"name\" : \"tapemovie.preferences.json\",\n\t\t\"path\" : \"~/Library/Application Support/tapemovie\"\n\t}\n,\n\t\"path\" : \"\"\n}\n"
 												}
 
@@ -133,9 +147,8 @@
 										"dependency_cache" : [  ]
 									}
 ,
-									"patching_rect" : [ 313.395813, 386.5, 71.0, 18.0 ],
+									"patching_rect" : [ 376.395813, 386.5, 71.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
@@ -144,7 +157,8 @@
 										"description" : "",
 										"globalpatchername" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"fontsize" : 12.0,
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p info-backup"
@@ -160,7 +174,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 367.677124, 345.0, 40.0, 18.0 ],
+									"patching_rect" : [ 430.677124, 345.0, 40.0, 18.0 ],
 									"text" : "status:"
 								}
 
@@ -175,7 +189,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 273.427063, 343.0, 79.0, 22.0 ],
+									"patching_rect" : [ 333.480988, 343.0, 79.0, 22.0 ],
 									"text" : "open to edit"
 								}
 
@@ -212,7 +226,7 @@
 											"path" : "~/Library/Application Support/tapemovie"
 										}
 ,
-										"path" : ""
+										"path" : "here:/there/projects1/Environ ments/didascalie-net/tapemovie2/tapemovie-lib/"
 									}
 ,
 									"fontname" : "Arial",
@@ -222,8 +236,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 162.427063, 343.0, 111.0, 20.0 ],
-									"text" : "dict tm-system-info"
+									"patching_rect" : [ 162.427063, 343.0, 173.0, 20.0 ],
+									"text" : "dict tm-system-info @embed 1"
 								}
 
 							}
@@ -322,7 +336,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 367.677124, 363.0, 190.0, 18.0 ],
+									"patching_rect" : [ 430.677124, 363.0, 190.0, 18.0 ],
 									"text" : "alpha, beta, \"release candidate\", release"
 								}
 
@@ -410,7 +424,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 115.953125, 265.5, 255.0, 15.0 ]
+									"patching_rect" : [ 115.953125, 265.5, 334.0, 15.0 ],
+									"text" : "here:/Applications/Max6/dev-test-tom4.app/Contents/support/tapemovie/"
 								}
 
 							}
@@ -433,13 +448,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-28",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 98.953117, 211.5, 187.0, 27.0 ],
-									"text" : "combine apppath appname .app/Contents/support/span/"
+									"patching_rect" : [ 98.953117, 211.5, 257.0, 17.0 ],
+									"text" : "combine apppath appname .app/Contents/support/tapemovie/"
 								}
 
 							}
@@ -804,7 +818,7 @@
 									"destination" : [ "obj-28", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 195.673615, 125.0, 344.0, 125.0, 344.0, 206.0, 192.453125, 206.0 ],
+									"midpoints" : [ 195.673615, 125.0, 344.0, 125.0, 344.0, 206.0, 227.453125, 206.0 ],
 									"source" : [ "obj-49", 1 ]
 								}
 
@@ -867,9 +881,8 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 53.0, 153.0, 59.0, 20.0 ],
+					"patching_rect" : [ 53.0, 186.0, 59.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
@@ -878,7 +891,8 @@
 						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p system"
@@ -896,7 +910,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 105.4375, 153.0, 251.0, 22.0 ],
+					"patching_rect" : [ 105.4375, 186.0, 251.0, 22.0 ],
 					"text" : "write system info to system key in \"dict tapemovie\"",
 					"textcolor" : [ 0.0, 0.576471, 0.811765, 1.0 ]
 				}
@@ -908,11 +922,11 @@
 					"fontsize" : 10.0,
 					"id" : "obj-41",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 53.0, 119.732941, 48.0, 18.0 ],
-					"text" : "deferlow"
+					"patching_rect" : [ 53.0, 145.732941, 32.5, 18.0 ],
+					"text" : "gate"
 				}
 
 			}
@@ -923,7 +937,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 53.0, 80.302734, 17.0, 17.0 ]
+					"patching_rect" : [ 53.0, 61.302734, 17.0, 17.0 ]
 				}
 
 			}
@@ -937,7 +951,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 53.0, 100.302734, 87.0, 17.0 ],
+					"patching_rect" : [ 53.0, 109.302734, 87.0, 17.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -961,6 +975,24 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -970,7 +1002,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-41", 0 ],
+					"destination" : [ "obj-41", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-28", 0 ]
@@ -979,7 +1011,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-28", 0 ],
+					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-38", 0 ]
