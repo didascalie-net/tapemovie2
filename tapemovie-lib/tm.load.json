@@ -3,7 +3,7 @@
 		"verbose" : 0
 	}
 ,
-	"project" : {
+	"projectfile" : {
 		"info" : 		{
 			"name" : "newproject",
 			"appname" : "tapemovie",
@@ -15,12 +15,11 @@
         }
 ,
 		"paths" : 	{
-			"project" : "",
-			"soundfiles" : "$project/media/soundfiles/",
-			"samples" : "$project/media/samples/",
-			"events" : "$project/events/",
-			"instruments" : "$project/instruments/",
-			"data" : "$project/data/"
+			"soundfiles" : "./media/soundfiles/",
+			"samples" : "./media/samples/",
+			"events" : "./events/",
+			"instruments" : "./instruments/",
+			"data" : "./data/"
 
 		}
 ,
