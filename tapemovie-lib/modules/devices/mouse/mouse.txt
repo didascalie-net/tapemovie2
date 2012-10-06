@@ -1,8 +1,15 @@
-active 1
 address mouse
+active 1
+quantity 0
 tags device control
 filename tm_mouse
 description "mouse as controller"
+path ""
+init
+ 	address init
+	description "initialize module"
+	class message
+	type bang
 sw
 	address sw
 	description "on/off switch"

@@ -1,10 +1,17 @@
-active 1
 address ctlmap
+active 1
+quantity 0
 tags control
 inputs 0
 outputs 0
 filename span_map
 description "controller mapper"
+path ""
+init
+ 	address init
+	description "initialize module"
+	class message
+	type bang
 sw
 	address sw
 	description "on/off switch"

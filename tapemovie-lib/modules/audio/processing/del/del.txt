@@ -1,12 +1,19 @@
-active 1
 address del
+active 1
+quantity 0
 tags audio
 inputs 1
 outputs 1
 filename t_del
 description "standard delay"
+path ""
+init
+ 	address init
+	description "initialize module"
+	class message
+	type bang
 sw
- address sw
+ 	address sw
 	description "on/off switch"
 	class parameter
 	type boolean

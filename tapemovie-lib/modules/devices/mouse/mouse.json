@@ -1,63 +1,74 @@
 {
-	"active" : 1,
-	"address" : "mouse",
-	"tags" : [ "device", "control" ],
-	"filename" : "tm_mouse",
-	"description" : "mouse as controller",
-	"sw" : 	{
-		"address" : "sw",
-		"description" : "on/off switch",
-		"class" : "parameter",
-		"type" : "boolean",
-		"unit" : "none",
-		"initval" : 0,
-		"range" : [ 0, 1 ],
-		"repetition" : 0,
-		"clipmode" : "both",
-		"ramp" : 0,
-		"rampfunction" : "none"
-	}
+	"mouse" : 	{
+		"active" : 1,
+		"quantity" : 0,
+		"tags" : [ "device", "control" ],
+		"filename" : "tm_mouse",
+		"description" : "mouse as controller",
+		"path" : "",
+		"init" : 		{
+			"address" : "init",
+			"description" : "initialize module",
+			"class" : "message",
+			"type" : "bang"
+		}
 ,
-	"x" : 	{
-		"unit" : "none",
-		"initval" : 0,
-		"ramp" : 0,
-		"rampfunction" : "none",
-		"address" : "x",
-		"description" : "x axis mouse position",
-		"class" : "controller",
-		"type" : "decimal",
-		"range" : [ 0, 1 ],
-		"repetition" : 0,
-		"clipmode" : "both"
-	}
+		"sw" : 		{
+			"address" : "sw",
+			"description" : "on/off switch",
+			"class" : "parameter",
+			"type" : "boolean",
+			"unit" : "none",
+			"initval" : 0,
+			"range" : [ 0, 1 ],
+			"repetition" : 0,
+			"clipmode" : "both",
+			"ramp" : 0,
+			"rampfunction" : "none"
+		}
 ,
-	"y" : 	{
-		"unit" : "none",
-		"initval" : 0,
-		"ramp" : 0,
-		"rampfunction" : "none",
-		"address" : "y",
-		"description" : "y axis mouse position",
-		"class" : "controller",
-		"type" : "decimal",
-		"range" : [ 0, 1 ],
-		"repetition" : 0,
-		"clipmode" : "both"
-	}
+		"x" : 		{
+			"address" : "x",
+			"description" : "x axis mouse position",
+			"class" : "controller",
+			"type" : "decimal",
+			"unit" : "none",
+			"initval" : 0,
+			"range" : [ 0, 1 ],
+			"repetition" : 0,
+			"clipmode" : "both",
+			"ramp" : 0,
+			"rampfunction" : "none"
+		}
 ,
-	"button" : 	{
-		"unit" : "none",
-		"initval" : 0,
-		"ramp" : 0,
-		"rampfunction" : "none",
-		"clipmode" : "both",
-		"address" : "button",
-		"description" : "mouse button",
-		"class" : "controller",
-		"type" : "boolean",
-		"range" : [ 0, 1 ],
-		"repetition" : 0
+		"y" : 		{
+			"address" : "y",
+			"description" : "y axis mouse position",
+			"class" : "controller",
+			"type" : "decimal",
+			"unit" : "none",
+			"initval" : 0,
+			"range" : [ 0, 1 ],
+			"repetition" : 0,
+			"clipmode" : "both",
+			"ramp" : 0,
+			"rampfunction" : "none"
+		}
+,
+		"button" : 		{
+			"address" : "button",
+			"description" : "mouse button",
+			"class" : "controller",
+			"type" : "boolean",
+			"unit" : "none",
+			"initval" : 0,
+			"range" : [ 0, 1 ],
+			"repetition" : 0,
+			"clipmode" : "both",
+			"ramp" : 0,
+			"rampfunction" : "none"
+		}
+
 	}
 
 }

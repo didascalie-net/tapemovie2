@@ -1,93 +1,104 @@
 {
-	"active" : 1,
-	"address" : "events",
-	"tags" : [ "control", "event" ],
-	"inputs" : 0,
-	"outputs" : 0,
-	"filename" : "span_events",
-	"description" : "Events Manager",
-	"sw" : 	{
-		"address" : "sw",
-		"description" : "on/off switch",
-		"class" : "parameter",
-		"type" : "boolean",
-		"initval" : 0,
-		"unit" : "none",
-		"range" : [ 0, 1 ],
-		"repetition" : 0,
-		"clipmode" : "both",
-		"ramp" : 0,
-		"rampfunction" : "none"
-	}
+	"events" : 	{
+		"active" : 1,
+		"quantity" : 0,
+		"tags" : [ "control", "event" ],
+		"inputs" : 0,
+		"outputs" : 0,
+		"filename" : "tm_events",
+		"description" : "Events Manager",
+		"path" : "",
+		"init" : 		{
+			"address" : "init",
+			"description" : "initialize module",
+			"class" : "message",
+			"type" : "bang"
+		}
 ,
-	"localsend" : 	{
-		"address" : "localsend",
-		"description" : "switch on or off localsend",
-		"class" : "parameter",
-		"type" : "boolean",
-		"initval" : 1,
-		"unit" : "none",
-		"range" : [ 0, 1 ],
-		"repetition" : 0,
-		"clipmode" : "both",
-		"ramp" : 0,
-		"rampfunction" : "none"
-	}
+		"sw" : 		{
+			"address" : "sw",
+			"description" : "on/off switch",
+			"class" : "parameter",
+			"type" : "boolean",
+			"initval" : 0,
+			"unit" : "none",
+			"range" : [ 0, 1 ],
+			"repetition" : 0,
+			"clipmode" : "both",
+			"ramp" : 0,
+			"rampfunction" : "none"
+		}
 ,
-	"oscsendname" : 	{
-		"unit" : "none",
-		"range" : [ 0, 1 ],
-		"repetition" : 0,
-		"clipmode" : "both",
-		"ramp" : 0,
-		"rampfunction" : "none",
-		"address" : "oscsendname",
-		"description" : "oscsend name to send the events to",
-		"class" : "parameter",
-		"type" : "string",
-		"initval" : "none"
-	}
+		"localsend" : 		{
+			"address" : "localsend",
+			"description" : "switch on or off localsend",
+			"class" : "parameter",
+			"type" : "boolean",
+			"initval" : 1,
+			"unit" : "none",
+			"range" : [ 0, 1 ],
+			"repetition" : 0,
+			"clipmode" : "both",
+			"ramp" : 0,
+			"rampfunction" : "none"
+		}
 ,
-	"type" : 	{
-		"unit" : "none",
-		"range" : [ 0, 1 ],
-		"repetition" : 0,
-		"clipmode" : "both",
-		"ramp" : 0,
-		"rampfunction" : "none",
-		"address" : "type",
-		"description" : "type of event to create",
-		"class" : "parameter",
-		"type" : "string",
-		"initval" : "empty"
-	}
+		"oscsendname" : 		{
+			"address" : "oscsendname",
+			"description" : "oscsend name to send the events to",
+			"class" : "parameter",
+			"type" : "string",
+			"initval" : "none",
+			"unit" : "none",
+			"range" : [ 0, 1 ],
+			"repetition" : 0,
+			"clipmode" : "both",
+			"ramp" : 0,
+			"rampfunction" : "none"
+		}
 ,
-	"subfolder" : 	{
-		"unit" : "none",
-		"range" : [ 0, 1 ],
-		"repetition" : 0,
-		"clipmode" : "both",
-		"ramp" : 0,
-		"rampfunction" : "none",
-		"address" : "subfolder",
-		"description" : "event storage subfolder",
-		"class" : "parameter",
-		"type" : "string",
-		"initval" : "none"
-	}
+		"type" : 		{
+			"address" : "type",
+			"description" : "type of event to create",
+			"class" : "parameter",
+			"type" : "string",
+			"initval" : "empty",
+			"unit" : "none",
+			"range" : [ 0, 1 ],
+			"repetition" : 0,
+			"clipmode" : "both",
+			"ramp" : 0,
+			"rampfunction" : "none"
+		}
 ,
-	"create" : 	{
-		"unit" : "none",
-		"range" : [ 0, 1 ],
-		"repetition" : 0,
-		"clipmode" : "both",
-		"ramp" : 0,
-		"rampfunction" : "none",
-		"initval" : "none",
-		"address" : "create",
-		"description" : "create an event",
-		"class" : "message",
-		"type" : "bang"
+		"subfolder" : 		{
+			"address" : "subfolder",
+			"description" : "event storage subfolder",
+			"class" : "parameter",
+			"type" : "string",
+			"initval" : "none",
+			"unit" : "none",
+			"range" : [ 0, 1 ],
+			"repetition" : 0,
+			"clipmode" : "both",
+			"ramp" : 0,
+			"rampfunction" : "none"
+		}
+,
+		"create" : 		{
+			"address" : "create",
+			"description" : "create an event",
+			"class" : "message",
+			"type" : "bang",
+			"initval" : "none",
+			"unit" : "none",
+			"range" : [ 0, 1 ],
+			"repetition" : 0,
+			"clipmode" : "both",
+			"ramp" : 0,
+			"rampfunction" : "none"
+		}
+
 	}
 
 }

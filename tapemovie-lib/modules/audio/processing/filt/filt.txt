@@ -1,10 +1,17 @@
-active 1
 address filt
+active 1
+quantity 0
 tags audio
 inputs 1
 outputs 1
 filename t_filt
 description "standard filter"
+path ""
+init
+ 	address init
+	description "initialize module"
+	class message
+	type bang
 sw
 	address sw
 	description "on/off switch"

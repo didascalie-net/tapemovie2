@@ -1,8 +1,15 @@
-active 1
 address oscsend
+active 1
+quantity 0
 tags osc
 filename tm_oscsend
 description "send OSC messages"
+path ""
+init
+ 	address init
+	description "initialize module"
+	class message
+	type bang
 sw
 	address sw
 	description "on/off switch"
