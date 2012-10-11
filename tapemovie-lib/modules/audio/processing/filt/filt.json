@@ -25,8 +25,7 @@
 			"range" : [ 0, 1 ],
 			"repetition" : 0,
 			"clipmode" : "both",
-			"ramp" : 0,
-			"rampfunction" : "none"
+			"ramp" : 0
 		}
 ,
 		"mode" : 		{
@@ -39,8 +38,7 @@
 			"range" : [ "display", "lowpass", "highpass", "bandpass", "bandstop", "peaknotch", "lowshelf", "highshelf", "resonant", "allpass" ],
 			"repetition" : 0,
 			"clipmode" : "both",
-			"ramp" : 0,
-			"rampfunction" : "none"
+			"ramp" : 0
 		}
 ,
 		"gainenable" : 		{
@@ -53,8 +51,7 @@
 			"range" : [ 0, 1 ],
 			"repetition" : 0,
 			"clipmode" : "both",
-			"ramp" : 0,
-			"rampfunction" : "none"
+			"ramp" : 0
 		}
 ,
 		"freq" : 		{
@@ -67,8 +64,7 @@
 			"range" : [ 20, 22050 ],
 			"repetition" : 0,
 			"clipmode" : "both",
-			"ramp" : 1,
-			"rampfunction" : "exponential"
+			"ramp" : 1
 		}
 ,
 		"gain" : 		{
@@ -81,8 +77,7 @@
 			"range" : [ -24, 24 ],
 			"repetition" : 0,
 			"clipmode" : "both",
-			"ramp" : 1,
-			"rampfunction" : "linear"
+			"ramp" : 1
 		}
 ,
 		"q" : 		{
@@ -95,22 +90,20 @@
 			"range" : [ 0.01, 25 ],
 			"repetition" : 0,
 			"clipmode" : "both",
-			"ramp" : 1,
-			"rampfunction" : "exponential"
+			"ramp" : 1
 		}
 ,
 		"vol" : 		{
 			"address" : "vol",
 			"description" : "output volume",
 			"class" : "parameter",
-			"type" : "decimal",
+			"type" : "sig",
 			"unit" : "none",
 			"initval" : 1,
 			"range" : [ 0, 2 ],
 			"repetition" : 0,
 			"clipmode" : "both",
-			"ramp" : 1,
-			"rampfunction" : "exponential"
+			"ramp" : 1
 		}
 ,
 		"volrand" : 		{
@@ -123,8 +116,7 @@
 			"range" : "none",
 			"repetition" : 0,
 			"clipmode" : "none",
-			"ramp" : 0,
-			"rampfunction" : "none"
+			"ramp" : 0
 		}
 ,
 		"freqrand" : 		{
@@ -137,8 +129,7 @@
 			"range" : "none",
 			"repetition" : 0,
 			"clipmode" : "none",
-			"ramp" : 0,
-			"rampfunction" : "none"
+			"ramp" : 0
 		}
 
 	}

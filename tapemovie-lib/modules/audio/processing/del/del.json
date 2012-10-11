@@ -25,8 +25,7 @@
 			"range" : [ 0, 1 ],
 			"repetition" : 0,
 			"clipmode" : "both",
-			"ramp" : 0,
-			"rampfunction" : "none"
+			"ramp" : 0
 		}
 ,
 		"time" : 		{
@@ -39,36 +38,33 @@
 			"range" : [ 0, 30000 ],
 			"repetition" : 0,
 			"clipmode" : "both",
-			"ramp" : 2,
-			"rampfunction" : "exponential"
+			"ramp" : 2
 		}
 ,
 		"fb" : 		{
 			"address" : "fb",
 			"description" : "feedback amount",
 			"class" : "parameter",
-			"type" : "decimal",
+			"type" : "sig",
 			"unit" : "factor",
 			"initval" : 0,
 			"range" : [ 0, 1 ],
 			"repetition" : 0,
 			"clipmode" : "both",
-			"ramp" : 2,
-			"rampfunction" : "exponential"
+			"ramp" : 1
 		}
 ,
 		"vol" : 		{
 			"address" : "vol",
 			"description" : "output volume",
 			"class" : "parameter",
-			"type" : "decimal",
+			"type" : "sig",
 			"unit" : "none",
 			"initval" : 1,
 			"range" : [ 0, 2 ],
 			"repetition" : 0,
 			"clipmode" : "both",
-			"ramp" : 1,
-			"rampfunction" : "exponential"
+			"ramp" : 1
 		}
 ,
 		"volrand" : 		{
@@ -81,8 +77,7 @@
 			"range" : "none",
 			"repetition" : 0,
 			"clipmode" : "none",
-			"ramp" : 0,
-			"rampfunction" : "none"
+			"ramp" : 0
 		}
 ,
 		"delrand" : 		{
@@ -95,8 +90,7 @@
 			"range" : "none",
 			"repetition" : 0,
 			"clipmode" : "none",
-			"ramp" : 0,
-			"rampfunction" : "none"
+			"ramp" : 0
 		}
 ,
 		"fbrand" : 		{
@@ -109,8 +103,7 @@
 			"range" : "none",
 			"repetition" : 0,
 			"clipmode" : "none",
-			"ramp" : 0,
-			"rampfunction" : "none"
+			"ramp" : 0
 		}
 
 	}

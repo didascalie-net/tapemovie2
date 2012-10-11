@@ -23,7 +23,6 @@ sw
 	repetition 0
 	clipmode both
 	ramp 0
-	rampfunction none
 time
 	address time
 	description "delay time"
@@ -35,31 +34,28 @@ time
 	repetition 0
 	clipmode both
 	ramp 2
-	rampfunction exponential
 fb
 	address fb
 	description "feedback amount"
  	class parameter
-	type decimal
+	type sig
 	unit factor
 	initval 0
 	range 0 1
 	repetition 0
 	clipmode both
-	ramp 2
-	rampfunction exponential
+	ramp 1
 vol
 	address vol
 	description "output volume"
  	class parameter
-	type decimal
+	type sig
 	unit none
 	initval 1
 	range 0 2
 	repetition 0
 	clipmode both
 	ramp 1
-	rampfunction exponential
 volrand
 	address volrand
 	description "random volume process"
@@ -71,7 +67,6 @@ volrand
 	repetition 0
 	clipmode none
 	ramp 0
-	rampfunction none
 delrand
 	address delrand
 	description "random delay time process"
@@ -83,7 +78,6 @@ delrand
 	repetition 0
 	clipmode none
 	ramp 0
-	rampfunction none
 fbrand
 	address fbrand
 	description "random feedback process"
@@ -95,4 +89,3 @@ fbrand
 	repetition 0
 	clipmode none
 	ramp 0
-	rampfunction none

@@ -23,7 +23,6 @@ sw
 	repetition 0
 	clipmode both
 	ramp 0
-	rampfunction none
 mode
 	address mode
 	description "filter mode (type)"
@@ -35,7 +34,6 @@ mode
 	repetition 0
 	clipmode both
 	ramp 0
-	rampfunction none
 gainenable
 	address gainenable
 	description "filter gain enble"
@@ -47,7 +45,6 @@ gainenable
 	repetition 0
 	clipmode both
 	ramp 0
-	rampfunction none
 freq
 	address freq
 	description "filter frequency"
@@ -59,7 +56,6 @@ freq
 	repetition 0
 	clipmode both
 	ramp 1
-	rampfunction exponential
 gain
 	address gain
 	description "filter gain"
@@ -71,7 +67,6 @@ gain
 	repetition 0
 	clipmode both
 	ramp 1
-	rampfunction linear
 q
 	address q
 	description "filter q"
@@ -83,19 +78,17 @@ q
 	repetition 0
 	clipmode both
 	ramp 1
-	rampfunction exponential
 vol
 	address vol
 	description "output volume"
  	class parameter
-	type decimal
+	type sig
 	unit none
 	initval 1
 	range 0 2
 	repetition 0
 	clipmode both
 	ramp 1
-	rampfunction exponential
 volrand
 	address volrand
 	description "random volume process"
@@ -107,7 +100,6 @@ volrand
 	repetition 0
 	clipmode none
 	ramp 0
-	rampfunction none
 freqrand
 	address freqrand
 	description "random frequency process"
@@ -119,4 +111,3 @@ freqrand
 	repetition 0
 	clipmode none
 	ramp 0
-	rampfunction none
