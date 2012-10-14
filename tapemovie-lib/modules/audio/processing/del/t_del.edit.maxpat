@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 7
 		}
 ,
 		"rect" : [ 263.0, 48.0, 825.0, 620.0 ],
@@ -36,7 +36,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 594.0, 138.0, 32.5, 18.0 ],
+					"patching_rect" : [ 593.0, 137.0, 32.5, 18.0 ],
 					"text" : "set"
 				}
 
@@ -50,7 +50,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 594.0, 77.0, 32.5, 18.0 ],
+					"patching_rect" : [ 593.0, 76.0, 32.5, 18.0 ],
 					"text" : "del"
 				}
 
@@ -64,7 +64,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 443.0, 167.0, 92.0, 18.0 ],
+					"patching_rect" : [ 442.0, 166.0, 92.0, 18.0 ],
 					"text" : "del del"
 				}
 
@@ -79,7 +79,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 479.0, 116.5, 79.0, 20.0 ],
+					"patching_rect" : [ 478.0, 115.5, 79.0, 20.0 ],
 					"text" : "tm_editsetup"
 				}
 
@@ -91,7 +91,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 452.5, 18.5, 20.0, 20.0 ]
+					"patching_rect" : [ 451.5, 17.5, 20.0, 20.0 ]
 				}
 
 			}
@@ -104,7 +104,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 479.0, 48.5, 56.0, 20.0 ],
+					"patching_rect" : [ 478.0, 47.5, 56.0, 20.0 ],
 					"text" : "deferlow"
 				}
 
@@ -118,7 +118,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 479.0, 18.5, 60.0, 20.0 ],
+					"patching_rect" : [ 478.0, 17.5, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -132,7 +132,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 548.0, 18.5, 163.0, 20.0 ],
+					"patching_rect" : [ 547.0, 17.5, 163.0, 20.0 ],
 					"text" : "r /tapemovie/address/update"
 				}
 
@@ -146,7 +146,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 479.0, 77.0, 92.0, 18.0 ],
+					"patching_rect" : [ 478.0, 76.0, 92.0, 18.0 ],
 					"text" : "#1"
 				}
 
@@ -155,14 +155,14 @@
 				"box" : 				{
 					"fontname" : "Times Roman",
 					"fontsize" : 9.0,
-					"frgb" : [ 0.0, 0.0, 0.784314, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-1",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 224.0, 323.0, 50.0, 15.0 ],
+					"patching_rect" : [ 223.0, 322.0, 50.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 73.5, 42.0, 38.0, 15.0 ],
+					"presentation_rect" : [ 72.5, 41.0, 38.0, 15.0 ],
 					"text" : "/vol",
 					"textcolor" : [ 0.0, 0.0, 0.784314, 1.0 ]
 				}
@@ -178,7 +178,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 62.5, 323.0, 52.0, 17.0 ],
+					"patching_rect" : [ 61.5, 322.0, 52.0, 17.0 ],
 					"text" : "editvar vol"
 				}
 
@@ -195,9 +195,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 152.0, 324.0, 42.0, 15.0 ],
+					"patching_rect" : [ 151.0, 323.0, 42.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 32.0, 42.0, 42.0, 15.0 ],
+					"presentation_rect" : [ 31.0, 41.0, 42.0, 15.0 ],
 					"triscale" : 0.9
 				}
 
@@ -206,14 +206,14 @@
 				"box" : 				{
 					"fontname" : "Times Roman",
 					"fontsize" : 9.0,
-					"frgb" : [ 0.0, 0.0, 0.784314, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-16",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 224.0, 273.0, 50.0, 15.0 ],
+					"patching_rect" : [ 223.0, 272.0, 50.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 73.5, 25.0, 38.0, 15.0 ],
+					"presentation_rect" : [ 72.5, 24.0, 38.0, 15.0 ],
 					"text" : "/fb",
 					"textcolor" : [ 0.0, 0.0, 0.784314, 1.0 ]
 				}
@@ -231,9 +231,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 152.0, 274.0, 42.0, 15.0 ],
+					"patching_rect" : [ 151.0, 273.0, 42.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 32.0, 25.0, 42.0, 15.0 ],
+					"presentation_rect" : [ 31.0, 24.0, 42.0, 15.0 ],
 					"triscale" : 0.9
 				}
 
@@ -248,7 +248,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 62.5, 273.0, 59.5, 17.0 ],
+					"patching_rect" : [ 61.5, 272.0, 59.5, 17.0 ],
 					"text" : "editvar fb"
 				}
 
@@ -263,7 +263,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 64.5, 223.0, 59.5, 17.0 ],
+					"patching_rect" : [ 63.5, 222.0, 59.5, 17.0 ],
 					"text" : "editvar time"
 				}
 
@@ -280,9 +280,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 152.0, 224.0, 42.0, 15.0 ],
+					"patching_rect" : [ 151.0, 223.0, 42.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 32.0, 8.0, 42.0, 15.0 ],
+					"presentation_rect" : [ 31.0, 7.0, 42.0, 15.0 ],
 					"triscale" : 0.9
 				}
 
@@ -291,14 +291,14 @@
 				"box" : 				{
 					"fontname" : "Times Roman",
 					"fontsize" : 9.0,
-					"frgb" : [ 0.0, 0.0, 0.784314, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-56",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 224.0, 223.0, 50.0, 15.0 ],
+					"patching_rect" : [ 223.0, 222.0, 50.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 73.5, 8.0, 38.0, 15.0 ],
+					"presentation_rect" : [ 72.5, 7.0, 38.0, 15.0 ],
 					"text" : "/time",
 					"textcolor" : [ 0.0, 0.0, 0.784314, 1.0 ]
 				}
@@ -315,9 +315,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.5, 0.5, 256.5, 62.0 ],
+					"patching_rect" : [ -0.5, -0.5, 256.5, 62.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.5, 0.5, 259.0, 65.0 ],
+					"presentation_rect" : [ -0.5, -0.5, 256.0, 62.0 ],
 					"varname" : "background"
 				}
 
@@ -511,98 +511,6 @@
 					"source" : [ "obj-83", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "bkgndp.maxpat",
-				"bootpath" : "/there/projects1/SON_VID-environment/TAPE-MOVIE/tapemovie-public/trunk/tapemovie-lib/common/common-lib/bkgnd-lib",
-				"patcherrelativepath" : "../../../../tapemovie-lib/common/common-lib/bkgnd-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jsui_textbutton.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/jsui-library",
-				"patcherrelativepath" : "../../../../../../../../../../Applications/Max6/Cycling '74/jsui-library",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "storetemppath.maxpat",
-				"bootpath" : "/there/projects1/SON_VID-environment/TAPE-MOVIE/tapemovie-public/trunk/tapemovie-lib/common/common-lib/temp-lib",
-				"patcherrelativepath" : "../../../../tapemovie-lib/common/common-lib/temp-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tempqlist.maxpat",
-				"bootpath" : "/there/projects1/SON_VID-environment/TAPE-MOVIE/tapemovie-public/trunk/tapemovie-lib/common/common-lib/temp-lib",
-				"patcherrelativepath" : "../../../../tapemovie-lib/common/common-lib/temp-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "projectpath.maxpat",
-				"bootpath" : "/there/projects1/SON_VID-environment/TAPE-MOVIE/tapemovie-public/trunk/tapemovie-lib/common/common-lib/misc-lib",
-				"patcherrelativepath" : "../../../../tapemovie-lib/common/common-lib/misc-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "variedit.maxpat",
-				"bootpath" : "/there/projects1/SON_VID-environment/TAPE-MOVIE/tapemovie-public/trunk/tapemovie-lib/common/common-lib/vari-lib",
-				"patcherrelativepath" : "../../../../tapemovie-lib/common/common-lib/vari-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tm_tagtocolor.maxpat",
-				"bootpath" : "/there/projects1/SON_VID-environment/TAPE-MOVIE/tapemovie-public/trunk/tapemovie-lib",
-				"patcherrelativepath" : "../../../../tapemovie-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "m_swcolor5.maxpat",
-				"bootpath" : "/there/projects1/SON_VID-environment/TAPE-MOVIE/tapemovie-public/trunk/tapemovie-lib/common/common-lib/misc-lib",
-				"patcherrelativepath" : "../../../../tapemovie-lib/common/common-lib/misc-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "t_swcolor5.maxpat",
-				"bootpath" : "/there/projects1/SON_VID-environment/TAPE-MOVIE/tapemovie-public/trunk/tapemovie-lib/common/common-lib/misc-lib",
-				"patcherrelativepath" : "../../../../tapemovie-lib/common/common-lib/misc-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ct_swcolor5.maxpat",
-				"bootpath" : "/there/projects1/SON_VID-environment/TAPE-MOVIE/tapemovie-public/trunk/tapemovie-lib/common/common-lib/misc-lib",
-				"patcherrelativepath" : "../../../../tapemovie-lib/common/common-lib/misc-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "c_swcolor5.maxpat",
-				"bootpath" : "/there/projects1/SON_VID-environment/TAPE-MOVIE/tapemovie-public/trunk/tapemovie-lib/common/common-lib/misc-lib",
-				"patcherrelativepath" : "../../../../tapemovie-lib/common/common-lib/misc-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "editvar.maxpat",
-				"bootpath" : "/there/projects1/SON_VID-environment/TAPE-MOVIE/tapemovie-public/trunk/tapemovie-lib",
-				"patcherrelativepath" : "../../../../tapemovie-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tm_editsetup.maxpat",
-				"bootpath" : "/there/projects1/SON_VID-environment/TAPE-MOVIE/tapemovie-public/trunk/tapemovie-lib",
-				"patcherrelativepath" : "../../../../tapemovie-lib",
-				"type" : "JSON",
-				"implicit" : 1
 			}
  ]
 	}
