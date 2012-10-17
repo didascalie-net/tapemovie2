@@ -30,7 +30,7 @@ mode
 	type enum
 	unit none
 	initval lowpass
-	range display lowpass highpass bandpass bandstop peaknotch lowshelf highshelf resonant allpass
+	rang lowpass highpass bandpass bandstop peaknotch lowshelf highshelf resonant allpass
 	repetition 0
 	clipmode both
 	ramp 0
@@ -83,7 +83,7 @@ vol
 	description "output volume"
  	class parameter
 	type sig
-	unit none
+	unit "linear multiplier"
 	initval 1
 	range 0 2
 	repetition 0

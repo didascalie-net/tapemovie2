@@ -7,7 +7,7 @@
 			"revision" : 7
 		}
 ,
-		"rect" : [ 119.0, 44.0, 708.0, 561.0 ],
+		"rect" : [ 4.0, 44.0, 708.0, 561.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1119,7 +1119,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 134.333344, 169.0, 32.5, 18.0 ],
+									"patching_rect" : [ 134.333344, 169.0, 55.0, 18.0 ],
 									"text" : "sel 0"
 								}
 
@@ -2652,7 +2652,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 182.833344, 183.0, 20.0, 20.0 ]
+									"patching_rect" : [ 217.833344, 181.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -2880,6 +2880,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-24", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-25", 1 ]
 								}
 
 							}
