@@ -5,6 +5,7 @@ tags audio
 inputs 1
 outputs 1
 filename t_filt
+editordim 1 2
 description "standard filter"
 path ""
 init
@@ -30,7 +31,7 @@ mode
 	type enum
 	unit none
 	initval lowpass
-	rang lowpass highpass bandpass bandstop peaknotch lowshelf highshelf resonant allpass
+	range lowpass highpass bandpass bandstop peaknotch lowshelf highshelf resonant allpass
 	repetition 0
 	clipmode both
 	ramp 0

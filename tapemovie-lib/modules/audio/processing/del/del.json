@@ -6,6 +6,7 @@
 		"inputs" : 1,
 		"outputs" : 1,
 		"filename" : "t_del",
+		"editordim" : [ 1, 1 ],
 		"description" : "standard delay",
 		"path" : "",
 		"init" : 		{

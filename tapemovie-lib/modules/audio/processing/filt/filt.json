@@ -6,6 +6,7 @@
 		"inputs" : 1,
 		"outputs" : 1,
 		"filename" : "t_filt",
+		"editordim" : [ 1, 2 ],
 		"description" : "standard filter",
 		"path" : "",
 		"init" : 		{
@@ -35,10 +36,11 @@
 			"type" : "enum",
 			"unit" : "none",
 			"initval" : "lowpass",
-			"range" : [ "lowpass", "highpass", "bandpass", "bandstop", "peaknotch", "lowshelf", "highshelf", "resonant", "allpass" ],
+			"range" : [ 0, 1 ],
 			"repetition" : 0,
 			"clipmode" : "both",
-			"ramp" : 0
+			"ramp" : 0,
+			"range" : [ "lowpass", "highpass", "bandpass", "bandstop", "peaknotch", "lowshelf", "highshelf", "resonant", "allpass" ]
 		}
 ,
 		"gainenable" : 		{
@@ -51,7 +53,8 @@
 			"range" : [ 0, 1 ],
 			"repetition" : 0,
 			"clipmode" : "both",
-			"ramp" : 0
+			"ramp" : 0,
+			"rang" : [ "lowpass", "highpass", "bandpass", "bandstop", "peaknotch", "lowshelf", "highshelf", "resonant", "allpass" ]
 		}
 ,
 		"freq" : 		{
@@ -64,7 +67,8 @@
 			"range" : [ 20, 22050 ],
 			"repetition" : 0,
 			"clipmode" : "both",
-			"ramp" : 1
+			"ramp" : 1,
+			"rang" : [ "lowpass", "highpass", "bandpass", "bandstop", "peaknotch", "lowshelf", "highshelf", "resonant", "allpass" ]
 		}
 ,
 		"gain" : 		{
@@ -77,7 +81,8 @@
 			"range" : [ -24, 24 ],
 			"repetition" : 0,
 			"clipmode" : "both",
-			"ramp" : 1
+			"ramp" : 1,
+			"rang" : [ "lowpass", "highpass", "bandpass", "bandstop", "peaknotch", "lowshelf", "highshelf", "resonant", "allpass" ]
 		}
 ,
 		"q" : 		{
@@ -90,7 +95,8 @@
 			"range" : [ 0.01, 25 ],
 			"repetition" : 0,
 			"clipmode" : "both",
-			"ramp" : 1
+			"ramp" : 1,
+			"rang" : [ "lowpass", "highpass", "bandpass", "bandstop", "peaknotch", "lowshelf", "highshelf", "resonant", "allpass" ]
 		}
 ,
 		"vol" : 		{
@@ -103,7 +109,8 @@
 			"range" : [ 0, 2 ],
 			"repetition" : 0,
 			"clipmode" : "both",
-			"ramp" : 1
+			"ramp" : 1,
+			"rang" : [ "lowpass", "highpass", "bandpass", "bandstop", "peaknotch", "lowshelf", "highshelf", "resonant", "allpass" ]
 		}
 ,
 		"volrand" : 		{
@@ -116,7 +123,8 @@
 			"range" : "none",
 			"repetition" : 0,
 			"clipmode" : "none",
-			"ramp" : 0
+			"ramp" : 0,
+			"rang" : [ "lowpass", "highpass", "bandpass", "bandstop", "peaknotch", "lowshelf", "highshelf", "resonant", "allpass" ]
 		}
 ,
 		"freqrand" : 		{
@@ -129,7 +137,8 @@
 			"range" : "none",
 			"repetition" : 0,
 			"clipmode" : "none",
-			"ramp" : 0
+			"ramp" : 0,
+			"rang" : [ "lowpass", "highpass", "bandpass", "bandstop", "peaknotch", "lowshelf", "highshelf", "resonant", "allpass" ]
 		}
 
 	}
