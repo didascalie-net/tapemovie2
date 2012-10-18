@@ -36,8 +36,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 193.0, 157.0, 127.0, 32.0 ],
-					"presentation_rect" : [ 193.0, 157.0, 0.0, 0.0 ],
+					"patching_rect" : [ 193.0, 201.0, 127.0, 32.0 ],
 					"text" : ";\r/tm/editors/open bang"
 				}
 
@@ -120,7 +119,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 193.0, 125.0, 133.0, 32.0 ],
+					"patching_rect" : [ 193.0, 169.0, 133.0, 32.0 ],
 					"text" : ";\r/tm/editors/delete bang"
 				}
 
@@ -135,7 +134,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 193.0, 92.5, 125.0, 32.0 ],
+					"patching_rect" : [ 193.0, 136.5, 125.0, 32.0 ],
 					"text" : ";\r/tm/editors/build bang"
 				}
 
@@ -171,7 +170,7 @@
 							"revision" : 7
 						}
 ,
-						"rect" : [ 760.0, 44.0, 317.0, 511.0 ],
+						"rect" : [ 761.0, 44.0, 256.0, 248.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -2433,7 +2432,7 @@
 							"revision" : 7
 						}
 ,
-						"rect" : [ 121.0, 57.0, 640.0, 480.0 ],
+						"rect" : [ 121.0, 57.0, 624.0, 254.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
