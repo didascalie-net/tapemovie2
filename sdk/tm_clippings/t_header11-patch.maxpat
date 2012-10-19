@@ -930,8 +930,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 5,
 													"outlettype" : [ "", "", "", "", "" ],
-													"patching_rect" : [ 311.583344, 50.0, 82.0, 18.0 ],
-													"text" : "regexp /(.+)/(\\\\d)"
+													"patching_rect" : [ 311.583344, 50.0, 88.0, 18.0 ],
+													"text" : "regexp /(.+)/(\\\\d+)"
 												}
 
 											}

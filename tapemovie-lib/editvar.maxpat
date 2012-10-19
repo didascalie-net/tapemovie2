@@ -1483,8 +1483,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 19.555542, 49.0, 119.0, 20.0 ],
-									"text" : "regexp /(.+)/(\\\\d)/(.+)"
+									"patching_rect" : [ 19.555542, 49.0, 126.0, 20.0 ],
+									"text" : "regexp /(.+)/(\\\\d+)/(.+)"
 								}
 
 							}
@@ -3023,7 +3023,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 104.0, 23.5, 27.0, 27.0 ]
 				}
 
