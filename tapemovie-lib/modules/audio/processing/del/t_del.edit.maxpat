@@ -7,7 +7,7 @@
 			"revision" : 7
 		}
 ,
-		"rect" : [ 530.0, 218.0, 825.0, 620.0 ],
+		"rect" : [ 530.0, 218.0, 617.0, 273.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -37,7 +37,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 559.0, 17.5, 98.0, 20.0 ],
+					"patching_rect" : [ 471.0, 13.5, 98.0, 20.0 ],
 					"text" : "r /tm/editor/reset"
 				}
 
@@ -49,7 +49,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 451.5, 17.5, 20.0, 20.0 ]
+					"patching_rect" : [ 363.5, 13.5, 20.0, 20.0 ]
 				}
 
 			}
@@ -62,7 +62,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 478.0, 47.5, 56.0, 20.0 ],
+					"patching_rect" : [ 390.0, 43.5, 56.0, 20.0 ],
 					"text" : "deferlow"
 				}
 
@@ -76,7 +76,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 478.0, 17.5, 60.0, 20.0 ],
+					"patching_rect" : [ 390.0, 13.5, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -90,7 +90,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 478.0, 76.0, 92.0, 18.0 ],
+					"patching_rect" : [ 390.0, 72.0, 92.0, 18.0 ],
 					"text" : "#1"
 				}
 
@@ -105,11 +105,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 223.0, 322.0, 50.0, 15.0 ],
+					"patching_rect" : [ 233.0, 211.0, 50.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 72.5, 41.0, 38.0, 15.0 ],
 					"text" : "/vol",
-					"textcolor" : [ 0.0, 0.0, 0.784314, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.75, 1.0 ]
 				}
 
 			}
@@ -123,7 +123,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 61.5, 322.0, 52.0, 17.0 ],
+					"patching_rect" : [ 73.5, 211.0, 52.0, 17.0 ],
 					"text" : "editvar vol"
 				}
 
@@ -142,7 +142,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 151.0, 323.0, 42.0, 15.0 ],
+					"patching_rect" : [ 161.0, 212.0, 42.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 31.0, 41.0, 42.0, 15.0 ],
 					"triscale" : 0.9
@@ -159,11 +159,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 223.0, 272.0, 50.0, 15.0 ],
+					"patching_rect" : [ 233.0, 161.0, 50.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 72.5, 24.0, 38.0, 15.0 ],
 					"text" : "/fb",
-					"textcolor" : [ 0.0, 0.0, 0.784314, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.75, 1.0 ]
 				}
 
 			}
@@ -181,7 +181,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 151.0, 273.0, 42.0, 15.0 ],
+					"patching_rect" : [ 161.0, 162.0, 42.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 31.0, 24.0, 42.0, 15.0 ],
 					"triscale" : 0.9
@@ -198,7 +198,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 61.5, 272.0, 59.5, 17.0 ],
+					"patching_rect" : [ 73.5, 161.0, 59.5, 17.0 ],
 					"text" : "editvar fb"
 				}
 
@@ -213,7 +213,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 63.5, 222.0, 59.5, 17.0 ],
+					"patching_rect" : [ 73.5, 111.0, 59.5, 17.0 ],
 					"text" : "editvar time"
 				}
 
@@ -232,7 +232,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 151.0, 223.0, 42.0, 15.0 ],
+					"patching_rect" : [ 161.0, 112.0, 42.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 31.0, 7.0, 42.0, 15.0 ],
 					"triscale" : 0.9
@@ -249,11 +249,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 223.0, 222.0, 50.0, 15.0 ],
+					"patching_rect" : [ 233.0, 111.0, 50.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 72.5, 7.0, 38.0, 15.0 ],
 					"text" : "/time",
-					"textcolor" : [ 0.0, 0.0, 0.784314, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.75, 1.0 ]
 				}
 
 			}
