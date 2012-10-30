@@ -3502,14 +3502,14 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-18",
-									"items" : [ "audio", ",", "audio/processing", ",", "audio/processing/del", ",", "audio/processing/del/del.json", ",", "audio/processing/del/del.txt", ",", "audio/processing/del/t_del.edit.maxpat", ",", "audio/processing/del/t_del.maxpat", ",", "audio/processing/filt", ",", "audio/processing/filt/filt.json", ",", "audio/processing/filt/filt.txt", ",", "audio/processing/filt/t_filt.edit.maxpat", ",", "audio/processing/filt/t_filt.maxpat", ",", "controls", ",", "controls/ctlmap", ",", "controls/ctlmap/ctlmap.json", ",", "controls/ctlmap/ctlmap.txt", ",", "controls/events", ",", "controls/events/events.json", ",", "controls/events/events.txt", ",", "controls/events/tm_events.edit.maxpat", ",", "controls/events/tm_events.maxpat", ",", "controls/oscsend", ",", "controls/oscsend/oscsend.json", ",", "controls/oscsend/oscsend.txt", ",", "controls/oscsend/tm_oscsend.maxpat", ",", "devices", ",", "devices/mouse", ",", "devices/mouse/mouse.json", ",", "devices/mouse/mouse.txt", ",", "devices/mouse/tm_mouse.edit.maxpat", ",", "devices/mouse/tm_mouse.maxpat" ],
+									"items" : [ "audio", ",", "audio/processing", ",", "audio/processing/del", ",", "audio/processing/del/del.json", ",", "audio/processing/del/del.txt", ",", "audio/processing/del/t_del.edit.maxpat", ",", "audio/processing/del/t_del.maxpat", ",", "audio/processing/filt", ",", "audio/processing/filt/filt.json", ",", "audio/processing/filt/filt.txt", ",", "audio/processing/filt/t_filt.edit.maxpat", ",", "audio/processing/filt/t_filt.maxpat", ",", "controls", ",", "controls/ctlmap", ",", "controls/ctlmap/ctlmap.json", ",", "controls/ctlmap/ctlmap.txt", ",", "controls/events", ",", "controls/events/events.json", ",", "controls/events/events.txt", ",", "controls/events/tm_events copy.maxpat", ",", "controls/events/tm_events.edit copy.maxpat", ",", "controls/events/tm_events.edit.maxpat", ",", "controls/events/tm_events.maxpat", ",", "controls/oscsend", ",", "controls/oscsend/oscsend.json", ",", "controls/oscsend/oscsend.txt", ",", "controls/oscsend/tm_oscsend.maxpat", ",", "devices", ",", "devices/mouse", ",", "devices/mouse/mouse.json", ",", "devices/mouse/mouse.txt", ",", "devices/mouse/tm_mouse.edit.maxpat", ",", "devices/mouse/tm_mouse.maxpat" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 159.5, 225.5, 245.0, 20.0 ],
-									"prefix" : "here:/there/projects1/Environ ments/didascalie-net/tapemovie2/tapemovie-lib/modules/"
+									"prefix" : "here:/there/projects1/Environments/didascalie-net/tapemovie2/tapemovie-lib/modules/"
 								}
 
 							}
@@ -5520,6 +5520,7 @@
 										"preferences" : 										{
 											"verbose" : 1,
 											"autoload" : 0,
+											"dynamicvars" : 1,
 											"project" : 											{
 												"path" : "",
 												"name" : ""
