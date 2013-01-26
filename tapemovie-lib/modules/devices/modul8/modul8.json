@@ -1,0 +1,133 @@
+{
+	"modul8" : 	{
+		"active" : 1,
+		"quantity" : 10,
+		"tags" : [ "device", "osc" ],
+		"inputs" : 0,
+		"outputs" : 0,
+		"filename" : "tm_modul8",
+		"editordim" : [ 1, 2 ],
+		"description" : "modul8 layer control",
+		"path" : "",
+		"init" : 		{
+			"address" : "init",
+			"description" : "initialize module",
+			"class" : "message",
+			"type" : "bang"
+		}
+,
+		"sw" : 		{
+			"address" : "sw",
+			"description" : "on/off switch",
+			"class" : "parameter",
+			"type" : "boolean",
+			"initval" : 0
+		}
+,
+		"color/alpha" : 		{
+			"address" : "color/alpha",
+			"description" : "opacity",
+			"class" : "parameter",
+			"type" : "decimal",
+			"initval" : 0,
+			"unit" : "ms",
+			"range" : [ 0, 1 ],
+			"repetition" : 0,
+			"clipmode" : "both",
+			"ramp" : 2
+		}
+,
+		"name" : 		{
+			"address" : "name",
+			"description" : "media index selection",
+			"class" : "parameter",
+			"type" : "integer",
+			"initval" : 0,
+			"unit" : "ms",
+			"range" : [ 0, 135 ],
+			"repetition" : 0,
+			"clipmode" : "both",
+			"ramp" : 2
+		}
+,
+		"rate" : 		{
+			"address" : "rate",
+			"description" : "speed setting",
+			"class" : "parameter",
+			"type" : "decimal",
+			"initval" : 0.25,
+			"unit" : "ms",
+			"range" : [ 0, 1 ],
+			"repetition" : 0,
+			"clipmode" : "both",
+			"ramp" : 2
+		}
+,
+		"loop/in" : 		{
+			"address" : "loop/in",
+			"description" : "loop in point",
+			"class" : "parameter",
+			"type" : "decimal",
+			"initval" : 0,
+			"unit" : "ms",
+			"range" : [ 0, 1 ],
+			"repetition" : 0,
+			"clipmode" : "both",
+			"ramp" : 2
+		}
+,
+		"loop/out" : 		{
+			"address" : "loop/out",
+			"description" : "loop out point",
+			"class" : "parameter",
+			"type" : "decimal",
+			"initval" : 1,
+			"unit" : "ms",
+			"range" : [ 0, 1 ],
+			"repetition" : 0,
+			"clipmode" : "both",
+			"ramp" : 2
+		}
+,
+		"entrypoint" : 		{
+			"address" : "entrypoint",
+			"description" : "starting point of the file",
+			"class" : "parameter",
+			"type" : "decimal",
+			"initval" : 0,
+			"unit" : "ms",
+			"range" : [ 0, 1 ],
+			"repetition" : 0,
+			"clipmode" : "both",
+			"ramp" : 2
+		}
+,
+		"direction" : 		{
+			"address" : "direction",
+			"description" : "play direction",
+			"class" : "parameter",
+			"type" : "boolean",
+			"initval" : 0,
+			"unit" : "ms",
+			"range" : [ 0, 1 ],
+			"repetition" : 0,
+			"clipmode" : "both",
+			"ramp" : 2
+		}
+,
+		"loop" : 		{
+			"address" : "loop",
+			"description" : "loop",
+			"class" : "parameter",
+			"type" : "integer",
+			"initval" : 0,
+			"unit" : "ms",
+			"range" : [ 0, 1 ],
+			"repetition" : 0,
+			"clipmode" : "both",
+			"ramp" : 2
+		}
+
+	}
+
+}

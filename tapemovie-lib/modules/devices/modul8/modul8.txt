@@ -1,0 +1,79 @@
+address modul8
+active 1
+quantity 10
+tags device osc
+inputs 1
+outputs 1
+filename tm_modul8
+editordim 1 2
+description "modul8 layer control"
+path ""
+init
+ 	address init
+	description "initialize module"
+	class message
+	type bang
+sw
+ 	address sw
+	description "on/off switch"
+	class parameter
+	type boolean
+	initval 0
+color/alpha
+	address color/alpha
+	description "opacity"
+ 	class parameter
+	type decimal
+	unit ms
+	initval 0
+	range 0 1
+	repetition 0
+	clipmode both
+	ramp 2
+name
+	address name
+	description "media index selection"
+ 	class parameter
+	type integer
+	initval 0
+	range 0 135
+rate
+	address rate
+	description "speed setting"
+ 	class parameter
+	type decimal
+	initval 0.25
+	range 0 1
+loop/in
+	address loop/in
+	description "loop in point"
+ 	class parameter
+	type decimal
+	initval 0
+	range 0 1
+loop/out
+	address loop/out
+	description "loop out point"
+ 	class parameter
+	type decimal
+	initval 1
+	range 0 1
+entrypoint
+	address entrypoint
+	description "starting point of the file"
+ 	class parameter
+	type decimal
+	initval 0
+	range 0 1
+direction
+	address direction
+	description "play direction"
+ 	class parameter
+	type boolean
+	initval 0
+loop
+	address loop
+	description "loop"
+ 	class parameter
+	type integer
+	initval 0
