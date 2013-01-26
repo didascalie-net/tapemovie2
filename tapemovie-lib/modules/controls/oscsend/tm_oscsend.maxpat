@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 8
 		}
 ,
-		"rect" : [ 91.0, 91.0, 880.0, 485.0 ],
+		"rect" : [ 824.0, 64.0, 880.0, 485.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -95,7 +95,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 8
 						}
 ,
 						"rect" : [ 25.0, 69.0, 304.0, 406.0 ],
@@ -212,6 +212,11 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
 									"patching_rect" : [ 50.0, 192.0, 85.0, 20.0 ],
+									"saved_object_attributes" : 									{
+										"embed" : 0,
+										"parameter_enable" : 0
+									}
+,
 									"text" : "dict oscsend"
 								}
 
@@ -366,22 +371,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 421.0, 91.0, 80.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"tags" : "",
-						"fontname" : "Arial",
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontsize" : 12.0,
-						"fontsize" : 12.0
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p makename"
@@ -436,9 +440,9 @@
 					"fontsize" : 9.0,
 					"id" : "obj-34",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numinlets" : 2,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "" ],
 					"patching_rect" : [ 21.0, 268.0, 167.0, 17.0 ],
 					"text" : "makeparam oscsend speedlim"
 				}
@@ -574,9 +578,9 @@
 					"fontsize" : 9.0,
 					"id" : "obj-9",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numinlets" : 2,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "" ],
 					"patching_rect" : [ 279.0, 143.0, 115.0, 17.0 ],
 					"text" : "makeparam oscsend alias"
 				}
@@ -631,8 +635,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 558.0, 311.0, 160.0, 17.0 ],
-					"text" : "span_print oscsend"
+					"patching_rect" : [ 558.0, 311.0, 60.0, 17.0 ],
+					"text" : "s /span/print"
 				}
 
 			}
@@ -657,9 +661,9 @@
 					"fontsize" : 9.0,
 					"id" : "obj-16",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numinlets" : 2,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "" ],
 					"patching_rect" : [ 558.0, 240.0, 150.0, 17.0 ],
 					"text" : "makeparam print"
 				}
@@ -672,8 +676,9 @@
 					"fontsize" : 9.0,
 					"id" : "obj-17",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 508.5, 157.0, 88.0, 17.0 ],
 					"text" : "moduleinit oscsend"
 				}
@@ -698,12 +703,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
+					"frgb" : 0.0,
 					"id" : "obj-20",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 319.0, 404.0, 338.0, 28.0 ],
+					"patching_rect" : [ 319.0, 404.0, 338.0, 27.0 ],
 					"text" : "arg 1: prefix name;\rarg 2: init environment receive name prefix (i.e. tape, movie, camtrk...)"
 				}
 
@@ -712,6 +718,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
+					"frgb" : 0.0,
 					"id" : "obj-21",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -766,9 +773,9 @@
 					"fontsize" : 9.0,
 					"id" : "obj-26",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numinlets" : 2,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "" ],
 					"patching_rect" : [ 69.5, 52.0, 108.0, 17.0 ],
 					"text" : "makeparam oscsend sw"
 				}
@@ -795,9 +802,9 @@
 					"fontsize" : 9.0,
 					"id" : "obj-28",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numinlets" : 2,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "" ],
 					"patching_rect" : [ 220.0, 332.0, 168.0, 17.0 ],
 					"text" : "makeparam oscsend port"
 				}
@@ -824,9 +831,9 @@
 					"fontsize" : 9.0,
 					"id" : "obj-30",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numinlets" : 2,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "" ],
 					"patching_rect" : [ 118.0, 308.0, 114.0, 17.0 ],
 					"text" : "makeparam oscsend host"
 				}
@@ -850,12 +857,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 24.0,
+					"frgb" : 0.0,
 					"id" : "obj-32",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 319.0, 367.0, 131.0, 34.0 ],
-					"text" : "udpsender"
+					"patching_rect" : [ 319.0, 367.0, 131.0, 33.0 ],
+					"text" : "oscsend"
 				}
 
 			}
@@ -1248,9 +1256,37 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "span_print.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
-				"patcherrelativepath" : "../../../library",
+				"name" : "makeparam.maxpat",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/param-lib",
+				"patcherrelativepath" : "../../../common/common-lib/param-lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "linecurv.maxpat",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/mapping-lib",
+				"patcherrelativepath" : "../../../common/common-lib/mapping-lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "scalecurv.maxpat",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/mapping-lib",
+				"patcherrelativepath" : "../../../common/common-lib/mapping-lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "minmaxf.maxpat",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
+				"patcherrelativepath" : "../../../common/common-lib/rand-lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "moduleinit.maxpat",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/misc-lib",
+				"patcherrelativepath" : "../../../common/common-lib/misc-lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
