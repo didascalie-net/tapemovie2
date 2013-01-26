@@ -2,8 +2,8 @@ address modul8
 active 1
 quantity 10
 tags device osc
-inputs 1
-outputs 1
+inputs 0
+outputs 0
 filename tm_modul8
 editordim 1 2
 description "modul8 layer control"
