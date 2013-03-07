@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 7
+			"minor" : 1,
+			"revision" : 0,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 262.0, 44.0, 429.0, 457.0 ],
@@ -40,8 +41,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 0,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 118.0, 44.0, 887.0, 692.0 ],
@@ -649,11 +651,12 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 0,
+											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 25.0, 69.0, 371.0, 398.0 ],
+										"rect" : [ 25.0, 69.0, 424.0, 560.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -674,12 +677,40 @@
 										"tags" : "",
 										"boxes" : [ 											{
 												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-1",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 252.75, 297.0, 61.0, 18.0 ],
+													"text" : "get initval"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-3",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "bang", "" ],
+													"patching_rect" : [ 252.75, 270.0, 36.0, 20.0 ],
+													"text" : "sel 1"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"comment" : "",
 													"id" : "obj-2",
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 204.75, 351.0, 25.0, 25.0 ]
+													"patching_rect" : [ 199.75, 497.0, 25.0, 25.0 ]
 												}
 
 											}
@@ -692,7 +723,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 5,
 													"outlettype" : [ "bang", "bang", "bang", "bang", "" ],
-													"patching_rect" : [ 41.75, 70.0, 182.0, 20.0 ],
+													"patching_rect" : [ 36.75, 57.0, 182.0, 20.0 ],
 													"text" : "t b b b b l"
 												}
 
@@ -706,7 +737,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 79.75, 320.0, 106.0, 20.0 ],
+													"patching_rect" : [ 74.75, 497.0, 106.0, 20.0 ],
 													"text" : "prepend set value"
 												}
 
@@ -720,7 +751,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 164.0, 107.0, 32.5, 18.0 ],
+													"patching_rect" : [ 159.0, 94.0, 32.5, 18.0 ],
 													"text" : "NA"
 												}
 
@@ -734,7 +765,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 79.75, 283.0, 103.25, 18.0 ],
+													"patching_rect" : [ 74.75, 460.0, 103.25, 18.0 ],
 													"text" : "0"
 												}
 
@@ -748,7 +779,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 237.25, 250.0, 72.0, 20.0 ],
+													"patching_rect" : [ 226.25, 371.0, 72.0, 20.0 ],
 													"text" : "route initval"
 												}
 
@@ -762,8 +793,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 102.25, 107.0, 61.0, 18.0 ],
-													"text" : "get initval"
+													"patching_rect" : [ 118.25, 119.0, 89.0, 18.0 ],
+													"text" : "contains initval"
 												}
 
 											}
@@ -777,7 +808,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 4,
 													"outlettype" : [ "dictionary", "", "", "" ],
-													"patching_rect" : [ 204.75, 204.0, 59.5, 20.0 ],
+													"patching_rect" : [ 199.75, 239.0, 98.5, 20.0 ],
 													"saved_object_attributes" : 													{
 														"embed" : 0,
 														"parameter_enable" : 0
@@ -795,17 +826,45 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 41.75, 31.0, 25.0, 25.0 ]
+													"patching_rect" : [ 36.75, 18.0, 25.0, 25.0 ]
 												}
 
 											}
  ],
 										"lines" : [ 											{
 												"patchline" : 												{
+													"destination" : [ "obj-45", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"midpoints" : [ 262.25, 323.0, 369.75, 323.0, 369.75, 229.0, 209.25, 229.0 ],
+													"source" : [ "obj-1", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-1", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-3", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-2", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-45", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-3", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-45", 2 ]
 												}
 
 											}
@@ -1878,8 +1937,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 0,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 362.0, 374.0 ],
@@ -2334,8 +2394,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 0,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 266.0, 81.0, 1016.0, 765.0 ],
@@ -2987,8 +3048,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 0,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -3502,7 +3564,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-18",
-									"items" : [ "audio", ",", "audio/processing", ",", "audio/processing/del", ",", "audio/processing/del/del.json", ",", "audio/processing/del/del.txt", ",", "audio/processing/del/t_del.edit.maxpat", ",", "audio/processing/del/t_del.maxpat", ",", "audio/processing/filt", ",", "audio/processing/filt/filt.json", ",", "audio/processing/filt/filt.txt", ",", "audio/processing/filt/t_filt.edit.maxpat", ",", "audio/processing/filt/t_filt.maxpat", ",", "controls", ",", "controls/ctlmap", ",", "controls/ctlmap/ctlmap.json", ",", "controls/ctlmap/ctlmap.txt", ",", "controls/events", ",", "controls/events/events.json", ",", "controls/events/events.txt", ",", "controls/events/tm_events copy.maxpat", ",", "controls/events/tm_events.edit copy.maxpat", ",", "controls/events/tm_events.edit.maxpat", ",", "controls/events/tm_events.maxpat", ",", "controls/oscsend", ",", "controls/oscsend/oscsend.json", ",", "controls/oscsend/oscsend.txt", ",", "controls/oscsend/tm_oscsend.maxpat", ",", "devices", ",", "devices/mouse", ",", "devices/mouse/mouse.json", ",", "devices/mouse/mouse.txt", ",", "devices/mouse/tm_mouse.edit.maxpat", ",", "devices/mouse/tm_mouse.maxpat" ],
+									"items" : [ "audio", ",", "audio/processing", ",", "audio/processing/del", ",", "audio/processing/del/del.json", ",", "audio/processing/del/del.txt", ",", "audio/processing/del/t_del.edit.maxpat", ",", "audio/processing/del/t_del.maxpat", ",", "audio/processing/filt", ",", "audio/processing/filt/filt.json", ",", "audio/processing/filt/filt.txt", ",", "audio/processing/filt/t_filt.edit.maxpat", ",", "audio/processing/filt/t_filt.maxpat", ",", "controls", ",", "controls/ctlmap", ",", "controls/ctlmap/ctlmap.json", ",", "controls/ctlmap/ctlmap.txt", ",", "controls/events", ",", "controls/events/events.json", ",", "controls/events/events.txt", ",", "controls/events/tm_events copy.maxpat", ",", "controls/events/tm_events.edit copy.maxpat", ",", "controls/events/tm_events.edit.maxpat", ",", "controls/events/tm_events.maxpat", ",", "controls/oscreceive", ",", "controls/oscreceive/oscreceive.json", ",", "controls/oscreceive/oscreceive.txt", ",", "controls/oscreceive/tm_oscreceive.maxpat", ",", "controls/oscsend", ",", "controls/oscsend/oscsend.json", ",", "controls/oscsend/oscsend.txt", ",", "controls/oscsend/tm_oscsend.maxpat", ",", "devices", ",", "devices/modul8", ",", "devices/modul8/modul8.json", ",", "devices/modul8/modul8.txt", ",", "devices/modul8/tm_modul8.edit.maxpat", ",", "devices/modul8/tm_modul8.maxpat", ",", "devices/mouse", ",", "devices/mouse/mouse.json", ",", "devices/mouse/mouse.txt", ",", "devices/mouse/tm_mouse.edit.maxpat", ",", "devices/mouse/tm_mouse.maxpat" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -4388,8 +4450,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 0,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 167.0, 343.0, 310.0, 205.0 ],
@@ -4627,8 +4690,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 0,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 116.0, 44.0, 340.0, 257.0 ],
@@ -4928,8 +4992,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 0,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 57.0, 855.0, 685.0 ],
@@ -5145,8 +5210,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 0,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 322.0, 89.0, 267.0, 316.0 ],
@@ -6390,7 +6456,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 128.958313, 205.289459, 165.562485, 33.0 ],
+					"patching_rect" : [ 128.958313, 205.289459, 166.0, 33.0 ],
 					"text" : "Loading system write system info to system key in \"dict span\"",
 					"textcolor" : [ 0.0, 0.576471, 0.811765, 1.0 ]
 				}
