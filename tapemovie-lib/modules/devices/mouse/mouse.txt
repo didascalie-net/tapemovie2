@@ -3,6 +3,7 @@ active 1
 quantity 0
 tags device control
 filename tm_mouse
+editordim 1 1
 description "mouse as controller"
 path ""
 init
