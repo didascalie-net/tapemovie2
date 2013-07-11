@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 402.0, 45.0, 1006.0, 807.0 ],
+		"rect" : [ 379.0, 44.0, 1006.0, 807.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -3717,12 +3717,13 @@
 			}
 , 			{
 				"box" : 				{
+					"border" : 1,
 					"id" : "obj-26",
 					"maxclass" : "bpatcher",
 					"name" : "span.events.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 19.5, 283.0, 357.166626, 130.0 ]
+					"patching_rect" : [ 19.5, 284.0, 314.166626, 145.0 ]
 				}
 
 			}
@@ -6343,7 +6344,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 376.666626, 82.0, 100.0, 20.0 ]
+					"patching_rect" : [ 376.666626, 86.606262, 100.0, 20.0 ]
 				}
 
 			}
@@ -6382,7 +6383,7 @@
 					"maxclass" : "dict.view",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 376.666626, 203.0, 612.0, 577.5 ]
+					"patching_rect" : [ 376.666626, 202.0, 612.0, 577.5 ]
 				}
 
 			}
@@ -6852,13 +6853,6 @@
 				"name" : "span.events.maxpat",
 				"bootpath" : "/there/projects1/Environments/didascalie-net/span/patchers/GUI",
 				"patcherrelativepath" : "../../../span/patchers/GUI",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "changesymbol.maxpat",
-				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/patchers/old/common/common-lib/misc-lib",
-				"patcherrelativepath" : "../../patchers/old/common/common-lib/misc-lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
