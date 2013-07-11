@@ -29,6 +29,72 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-58",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 266.666626, 202.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-42",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 266.666626, 226.0, 110.0, 20.0 ],
+					"text" : "s /tm/menu/update"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-60",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 131.583313, 181.0, 115.0, 18.0 ],
+					"text" : "empty events::temp"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-59",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 264.0, 492.94281, 69.666626, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-37",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 264.0, 466.266754, 73.0, 20.0 ],
+					"text" : "r /del/3/time"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
@@ -3723,7 +3789,7 @@
 					"name" : "span.events.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 19.5, 284.0, 314.166626, 145.0 ]
+					"patching_rect" : [ 19.5, 285.0, 314.166626, 145.0 ]
 				}
 
 			}
@@ -3863,7 +3929,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 178.0, 226.0, 76.0, 31.0 ],
+					"patching_rect" : [ 118.0, 233.0, 76.0, 31.0 ],
 					"text" : ";\r/tm/init bang"
 				}
 
@@ -6668,6 +6734,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-59", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -6758,10 +6833,28 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-58", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-62", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-60", 0 ]
 				}
 
 			}
@@ -6846,6 +6939,160 @@
 				"name" : "tm_builders.maxpat",
 				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/patchers",
 				"patcherrelativepath" : "../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tm_mouse.maxpat",
+				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/patchers/modules/devices/mouse",
+				"patcherrelativepath" : "../../patchers/modules/devices/mouse",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.control.maxpat",
+				"bootpath" : "/there/projects1/Environments/didascalie-net/span/patchers",
+				"patcherrelativepath" : "../../../span/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tm_header.maxpat",
+				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/patchers",
+				"patcherrelativepath" : "../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.param.maxpat",
+				"bootpath" : "/there/projects1/Environments/didascalie-net/span/patchers",
+				"patcherrelativepath" : "../../../span/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "t_filt.maxpat",
+				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/patchers/modules/audio/processing/filt",
+				"patcherrelativepath" : "../../patchers/modules/audio/processing/filt",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "t_header11.maxpat",
+				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/patchers",
+				"patcherrelativepath" : "../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.param~.maxpat",
+				"bootpath" : "/there/projects1/Environments/didascalie-net/span/patchers",
+				"patcherrelativepath" : "../../../span/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "proc-randtransf0.maxpat",
+				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/patchers/old/common/common-lib/rand-lib",
+				"patcherrelativepath" : "../../patchers/old/common/common-lib/rand-lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "randtransf0.maxpat",
+				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/patchers/old/common/common-lib/rand-lib",
+				"patcherrelativepath" : "../../patchers/old/common/common-lib/rand-lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "randomfR.maxpat",
+				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/patchers/old/common/common-lib/rand-lib",
+				"patcherrelativepath" : "../../patchers/old/common/common-lib/rand-lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "randomR.maxpat",
+				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/patchers/old/common/common-lib/rand-lib",
+				"patcherrelativepath" : "../../patchers/old/common/common-lib/rand-lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "minmaxi.maxpat",
+				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/patchers/old/common/common-lib/rand-lib",
+				"patcherrelativepath" : "../../patchers/old/common/common-lib/rand-lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "odds.maxpat",
+				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/patchers/old/common/common-lib/rand-lib",
+				"patcherrelativepath" : "../../patchers/old/common/common-lib/rand-lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "proc-randtransf.maxpat",
+				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/patchers/old/common/common-lib/rand-lib",
+				"patcherrelativepath" : "../../patchers/old/common/common-lib/rand-lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "randtransf.maxpat",
+				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/patchers/old/common/common-lib/rand-lib",
+				"patcherrelativepath" : "../../patchers/old/common/common-lib/rand-lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "t_del.maxpat",
+				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/patchers/modules/audio/processing/del",
+				"patcherrelativepath" : "../../patchers/modules/audio/processing/del",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tm_mouse.edit.maxpat",
+				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/patchers/modules/devices/mouse",
+				"patcherrelativepath" : "../../patchers/modules/devices/mouse",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bkgndp.maxpat",
+				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/patchers",
+				"patcherrelativepath" : "../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jsui_textbutton.js",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/jsui-library",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/jsui-library",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "editvar.maxpat",
+				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/patchers",
+				"patcherrelativepath" : "../../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "t_filt.edit.maxpat",
+				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/patchers/modules/audio/processing/filt",
+				"patcherrelativepath" : "../../patchers/modules/audio/processing/filt",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "t_del.edit.maxpat",
+				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/patchers/modules/audio/processing/del",
+				"patcherrelativepath" : "../../patchers/modules/audio/processing/del",
 				"type" : "JSON",
 				"implicit" : 1
 			}
