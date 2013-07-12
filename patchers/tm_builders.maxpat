@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 303.0, 69.0, 441.0, 681.0 ],
+		"rect" : [ 187.0, 60.0, 441.0, 681.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -206,7 +206,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 95.233231, 12.5, 86.0, 32.0 ],
+					"patching_rect" : [ 95.233231, 12.5, 86.0, 31.0 ],
 					"text" : ";\r/tm/build bang"
 				}
 
@@ -221,7 +221,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 209.233231, 462.5, 125.0, 32.0 ],
+					"patching_rect" : [ 209.233231, 462.5, 125.0, 31.0 ],
 					"text" : ";\r/tm/editors/build bang"
 				}
 
@@ -264,7 +264,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.733231, 71.5, 122.0, 32.0 ],
+					"patching_rect" : [ 8.733231, 71.5, 122.0, 31.0 ],
 					"text" : ";\r/tm/nodes/build bang"
 				}
 
@@ -322,7 +322,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 293.0, 289.5, 127.0, 32.0 ],
+					"patching_rect" : [ 293.0, 289.5, 127.0, 31.0 ],
 					"text" : ";\r/tm/editors/open bang"
 				}
 
@@ -405,7 +405,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 262.0, 257.5, 133.0, 32.0 ],
+					"patching_rect" : [ 262.0, 257.5, 133.0, 31.0 ],
 					"text" : ";\r/tm/editors/delete bang"
 				}
 
@@ -420,7 +420,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 262.0, 225.0, 125.0, 32.0 ],
+					"patching_rect" : [ 262.0, 225.0, 125.0, 31.0 ],
 					"text" : ";\r/tm/editors/build bang"
 				}
 
@@ -457,7 +457,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 219.0, 44.0, 299.0, 301.0 ],
+						"openrect" : [ 129.0, 44.0, 257.0, 249.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -476,7 +476,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-11",
@@ -497,8 +496,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 639.0, 115.5, 116.0, 20.0 ],
-									"text" : "s /tm/menus/update"
+									"patching_rect" : [ 639.0, 115.5, 110.0, 20.0 ],
+									"text" : "s /tm/menu/update"
 								}
 
 							}
@@ -699,7 +698,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ -9.0, 44.0, 890.0, 750.0 ],
+										"rect" : [ 0.0, 44.0, 890.0, 750.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -2772,7 +2771,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 262.0, 150.5, 129.0, 32.0 ],
+					"patching_rect" : [ 262.0, 150.5, 129.0, 31.0 ],
 					"text" : ";\r/tm/nodes/delete bang"
 				}
 
@@ -2800,7 +2799,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 262.0, 118.0, 122.0, 32.0 ],
+					"patching_rect" : [ 262.0, 118.0, 122.0, 31.0 ],
 					"text" : ";\r/tm/nodes/build bang"
 				}
 
@@ -2892,7 +2891,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 453.0, 81.0, 129.0, 32.0 ],
+									"patching_rect" : [ 453.0, 81.0, 129.0, 31.0 ],
 									"text" : ";\r/tm/nodes/delete bang"
 								}
 
@@ -2907,7 +2906,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 453.0, 40.0, 122.0, 32.0 ],
+									"patching_rect" : [ 453.0, 40.0, 122.0, 31.0 ],
 									"text" : ";\r/tm/nodes/build bang"
 								}
 
@@ -3484,8 +3483,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 407.25, 125.0, 155.0, 18.0 ],
-													"text" : "del filt mouse"
+													"patching_rect" : [ 407.25, 125.0, 155.0, 18.0 ]
 												}
 
 											}
@@ -4690,51 +4688,6 @@
 								}
 
 							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-1",
-									"linecount" : 2,
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 30.0, 100.0, 0.0 ],
-									"text" : "poly~ t_del 5 args del",
-									"varname" : "del"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-3",
-									"linecount" : 2,
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 60.0, 100.0, 0.0 ],
-									"text" : "poly~ t_filt 5 args filt",
-									"varname" : "filt"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-4",
-									"linecount" : 2,
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 90.0, 100.0, 0.0 ],
-									"text" : "poly~ tm_mouse 1 args mouse",
-									"varname" : "mouse"
-								}
-
-							}
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
@@ -5100,6 +5053,14 @@
 					"source" : [ "obj-8", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "span.requests.maxpat",
+				"bootpath" : "/there/projects1/Environments/didascalie-net/span/patchers",
+				"patcherrelativepath" : "../../span/patchers",
+				"type" : "JSON",
+				"implicit" : 1
 			}
  ]
 	}
