@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 7
+			"minor" : 1,
+			"revision" : 3,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 313.0, 52.0, 429.0, 457.0 ],
@@ -40,8 +41,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 118.0, 44.0, 887.0, 692.0 ],
@@ -635,8 +637,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 379.0, 388.0 ],
@@ -1846,8 +1849,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 362.0, 374.0 ],
@@ -2302,8 +2306,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 266.0, 81.0, 1016.0, 765.0 ],
@@ -2508,8 +2513,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 50.0, 94.0, 465.0, 425.0 ],
@@ -2573,8 +2579,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 429.0, 45.0, 316.0, 712.0 ],
@@ -3258,8 +3265,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 429.0, 45.0, 316.0, 712.0 ],
@@ -3943,8 +3951,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 429.0, 45.0, 316.0, 712.0 ],
@@ -4628,8 +4637,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 429.0, 45.0, 316.0, 712.0 ],
@@ -5313,8 +5323,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 429.0, 45.0, 316.0, 712.0 ],
@@ -5998,8 +6009,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 429.0, 45.0, 316.0, 712.0 ],
@@ -6683,8 +6695,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 429.0, 45.0, 316.0, 712.0 ],
@@ -7368,8 +7381,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 429.0, 45.0, 316.0, 712.0 ],
@@ -8053,8 +8067,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 429.0, 45.0, 316.0, 712.0 ],
@@ -8738,8 +8753,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 429.0, 45.0, 316.0, 712.0 ],
@@ -10141,8 +10157,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -11533,8 +11550,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 167.0, 343.0, 310.0, 205.0 ],
@@ -11772,8 +11790,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 369.0, 44.0, 289.0, 259.0 ],
@@ -12050,13 +12069,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 20.229156, 162.926697, 69.0, 17.0 ],
+					"patching_rect" : [ 20.229156, 162.926697, 76.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "properties.js",
+						"filename" : "jsproperties.js",
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "js properties.js"
+					"text" : "js jsproperties.js"
 				}
 
 			}
@@ -12073,8 +12092,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 409.0, 60.0, 855.0, 685.0 ],
@@ -12124,8 +12144,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 50.0, 94.0, 465.0, 425.0 ],
@@ -12189,8 +12210,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 429.0, 45.0, 316.0, 712.0 ],
@@ -12874,8 +12896,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 429.0, 45.0, 316.0, 712.0 ],
@@ -13559,8 +13582,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 429.0, 45.0, 316.0, 712.0 ],
@@ -14244,8 +14268,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 429.0, 45.0, 316.0, 712.0 ],
@@ -14929,8 +14954,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 429.0, 45.0, 316.0, 712.0 ],
@@ -15614,8 +15640,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 429.0, 45.0, 316.0, 712.0 ],
@@ -16299,8 +16326,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 429.0, 45.0, 316.0, 712.0 ],
@@ -16984,8 +17012,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 429.0, 45.0, 316.0, 712.0 ],
@@ -17669,8 +17698,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 429.0, 45.0, 316.0, 712.0 ],
@@ -18354,8 +18384,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 7
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 429.0, 45.0, 316.0, 712.0 ],
@@ -19431,8 +19462,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 322.0, 89.0, 267.0, 316.0 ],
@@ -19727,8 +19759,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 0.0, 44.0, 685.0, 800.0 ],
@@ -21454,7 +21487,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 128.958313, 205.289459, 165.562485, 33.0 ],
+					"patching_rect" : [ 128.958313, 205.289459, 166.0, 33.0 ],
 					"text" : "Loading system write system info to system key in \"dict span\"",
 					"textcolor" : [ 0.0, 0.576471, 0.811765, 1.0 ]
 				}
@@ -21583,6 +21616,21 @@
 					"source" : [ "obj-6", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "jsproperties.js",
+				"bootpath" : "/Users/reno/GITs/span/javascript",
+				"patcherrelativepath" : "../../../span/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.requests.maxpat",
+				"bootpath" : "/Users/reno/GITs/span/patchers",
+				"patcherrelativepath" : "../../../span/patchers",
+				"type" : "JSON",
+				"implicit" : 1
 			}
  ]
 	}

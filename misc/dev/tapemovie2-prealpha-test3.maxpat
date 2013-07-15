@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 7
+			"minor" : 1,
+			"revision" : 3,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 401.0, 45.0, 1006.0, 807.0 ],
@@ -165,8 +166,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 678.0, 77.0, 716.0, 721.0 ],
@@ -199,7 +201,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 314.5, 670.065918, 185.0, 32.0 ],
-									"presentation_rect" : [ 18.0, 419.032959, 0.0, 0.0 ],
 									"text" : ";\r/span/event/create event-series3"
 								}
 
@@ -217,8 +218,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 275.0, 283.0 ],
@@ -347,7 +349,6 @@
 									}
 ,
 									"patching_rect" : [ 157.0, 354.967041, 121.0, 20.0 ],
-									"presentation_rect" : [ 661.0, 364.0, 0.0, 0.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -376,8 +377,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 103.5, 327.032959, 126.0, 20.0 ],
-									"presentation_rect" : [ 607.5, 336.065918, 0.0, 0.0 ]
+									"patching_rect" : [ 103.5, 327.032959, 126.0, 20.0 ]
 								}
 
 							}
@@ -391,7 +391,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 60.5, 327.032959, 43.0, 20.0 ],
-									"presentation_rect" : [ 577.5, 336.065918, 0.0, 0.0 ],
 									"text" : "delete"
 								}
 
@@ -409,8 +408,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 275.0, 283.0 ],
@@ -539,7 +539,6 @@
 									}
 ,
 									"patching_rect" : [ 157.0, 296.967041, 121.0, 20.0 ],
-									"presentation_rect" : [ 660.0, 306.0, 0.0, 0.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -568,8 +567,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 103.5, 269.032959, 126.0, 20.0 ],
-									"presentation_rect" : [ 606.5, 278.065918, 0.0, 0.0 ]
+									"patching_rect" : [ 103.5, 269.032959, 126.0, 20.0 ]
 								}
 
 							}
@@ -583,7 +581,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 73.5, 269.032959, 30.0, 20.0 ],
-									"presentation_rect" : [ 573.5, 278.065918, 0.0, 0.0 ],
 									"text" : "edit"
 								}
 
@@ -601,8 +598,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 275.0, 283.0 ],
@@ -657,8 +655,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 191.0, 38.202881, 25.0, 25.0 ],
-													"presentation_rect" : [ 417.0, 257.202881, 0.0, 0.0 ]
+													"patching_rect" : [ 191.0, 38.202881, 25.0, 25.0 ]
 												}
 
 											}
@@ -775,7 +772,6 @@
 									}
 ,
 									"patching_rect" : [ 157.0, 238.967041, 121.0, 20.0 ],
-									"presentation_rect" : [ 772.5, 208.0, 0.0, 0.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -821,8 +817,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 457.0, 689.0 ],
@@ -854,7 +851,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 253.166687, 237.202881, 32.5, 18.0 ],
-													"presentation_rect" : [ 237.87085, 230.202881, 0.0, 0.0 ],
 													"text" : "/"
 												}
 
@@ -880,8 +876,7 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 325.666687, 320.23584, 25.0, 25.0 ],
-													"presentation_rect" : [ 236.0, 623.268799, 0.0, 0.0 ]
+													"patching_rect" : [ 325.666687, 320.23584, 25.0, 25.0 ]
 												}
 
 											}
@@ -1202,7 +1197,7 @@
 													"maxclass" : "inlet",
 													"numinlets" : 0,
 													"numoutlets" : 1,
-													"outlettype" : [ "bang" ],
+													"outlettype" : [ "" ],
 													"patching_rect" : [ 46.87085, 35.0, 25.0, 25.0 ]
 												}
 
@@ -1595,7 +1590,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 203.0, 114.0, 50.0, 18.0 ],
-									"presentation_rect" : [ 699.5, 74.0, 0.0, 0.0 ],
 									"text" : "concert"
 								}
 
@@ -1611,7 +1605,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 47.0, 670.065918, 251.0, 32.0 ],
-									"presentation_rect" : [ 45.0, 665.065918, 0.0, 0.0 ],
 									"text" : ";\r/span/event/create concert/test4 ifvalue sw=1"
 								}
 
@@ -1627,7 +1620,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 47.0, 638.065918, 251.0, 32.0 ],
-									"presentation_rect" : [ 43.0, 638.065918, 0.0, 0.0 ],
 									"text" : ";\r/span/event/create concert/test3 ifvalue sw=1"
 								}
 
@@ -1642,7 +1634,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 133.231262, 114.0, 60.0, 18.0 ],
-									"presentation_rect" : [ 635.5, 98.0, 0.0, 0.0 ],
 									"text" : "subfolder"
 								}
 
@@ -1658,8 +1649,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 103.5, 211.032959, 126.0, 20.0 ],
-									"presentation_rect" : [ 545.5, 572.0, 0.0, 0.0 ]
+									"patching_rect" : [ 103.5, 211.032959, 126.0, 20.0 ]
 								}
 
 							}
@@ -1686,8 +1676,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -2221,7 +2212,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 47.0, 599.098877, 261.0, 32.0 ],
-									"presentation_rect" : [ 43.0, 604.065918, 0.0, 0.0 ],
 									"text" : ";\r/span/event/create subfolder/test2 ifvalue sw=1"
 								}
 
@@ -2237,7 +2227,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 47.0, 558.065918, 261.0, 32.0 ],
-									"presentation_rect" : [ 71.5, 627.532959, 0.0, 0.0 ],
 									"text" : ";\r/span/event/create subfolder/test1 ifvalue sw=1"
 								}
 
@@ -2658,8 +2647,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 95.0, 350.0, 349.0, 391.0 ],
@@ -3053,8 +3043,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 275.0, 44.0, 1061.0, 565.0 ],
@@ -3090,8 +3081,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 50.0, 94.0, 335.0, 261.0 ],
@@ -4920,7 +4912,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 6.0, 22.0, 360.0, 25.0 ],
-					"text" : "/project-tests-/test1-proj"
+					"text" : "no project"
 				}
 
 			}
@@ -5014,8 +5006,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 7
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 87.0, 44.0, 574.0, 531.0 ],
@@ -5220,7 +5213,7 @@
 									"fontsize" : 12.0,
 									"id" : "obj-302",
 									"maxclass" : "newobj",
-									"numinlets" : 0,
+									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 531.25, 45.0, 42.0, 20.0 ],
@@ -5517,8 +5510,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 239.0, 396.0 ],
@@ -6496,8 +6490,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 7
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 939.0, 601.0 ],
@@ -8339,13 +8334,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 178.0, 100.376038, 69.0, 17.0 ],
+					"patching_rect" : [ 178.0, 100.376038, 76.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "properties.js",
+						"filename" : "jsproperties.js",
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "js properties.js"
+					"text" : "js jsproperties.js"
 				}
 
 			}
@@ -8671,216 +8666,90 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "span.maxpat",
-				"bootpath" : "/there/projects1/Environments/didascalie-net/span/lib",
-				"patcherrelativepath" : "../../lib",
+				"bootpath" : "/Users/reno/GITs/span/patchers",
+				"patcherrelativepath" : "../../../span/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.requests.maxpat",
-				"bootpath" : "/there/projects1/Environments/didascalie-net/span/lib",
-				"patcherrelativepath" : "../../lib",
+				"bootpath" : "/Users/reno/GITs/span/patchers",
+				"patcherrelativepath" : "../../../span/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dict.dump.maxpat",
-				"bootpath" : "/there/projects1/Environments/didascalie-net/span/lib",
-				"patcherrelativepath" : "../../lib",
+				"bootpath" : "/Users/reno/GITs/span/patchers",
+				"patcherrelativepath" : "../../../span/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.eventplay.maxpat",
-				"bootpath" : "/there/projects1/Environments/didascalie-net/span/lib",
-				"patcherrelativepath" : "../../lib",
+				"bootpath" : "/Users/reno/GITs/span/patchers",
+				"patcherrelativepath" : "../../../span/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "properties.js",
-				"bootpath" : "/there/projects1/Environments/didascalie-net/span/lib/js",
-				"patcherrelativepath" : "../../lib/js",
+				"name" : "span.path.requests.maxpat",
+				"bootpath" : "/Users/reno/GITs/span/patchers",
+				"patcherrelativepath" : "../../../span/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jsproperties.js",
+				"bootpath" : "/Users/reno/GITs/span/javascript",
+				"patcherrelativepath" : "../../../span/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jspathtype.js",
+				"bootpath" : "/Users/reno/GITs/span/javascript",
+				"patcherrelativepath" : "../../../span/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jspathtype-recursive.js",
+				"bootpath" : "/Users/reno/GITs/span/javascript",
+				"patcherrelativepath" : "../../../span/javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pathrequest.js",
+				"bootpath" : "/Users/reno/GITs/span/javascript",
+				"patcherrelativepath" : "../../../span/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tm.span.maxpat",
-				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/tapemovie-lib",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib",
+				"bootpath" : "/Users/reno/GITs/tapemovie2/patchers",
+				"patcherrelativepath" : "../../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tm_builders.maxpat",
-				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/tapemovie-lib",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tm_mouse.maxpat",
-				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/tapemovie-lib/modules/devices/mouse",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/modules/devices/mouse",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span.control.maxpat",
-				"bootpath" : "/there/projects1/Environments/didascalie-net/span/lib",
-				"patcherrelativepath" : "../../lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tm_header.maxpat",
-				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/tapemovie-lib",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span.param.maxpat",
-				"bootpath" : "/there/projects1/Environments/didascalie-net/span/lib",
-				"patcherrelativepath" : "../../lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "t_filt.maxpat",
-				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/tapemovie-lib/modules/audio/processing/filt",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/modules/audio/processing/filt",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "t_header11.maxpat",
-				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/tapemovie-lib",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span.param~.maxpat",
-				"bootpath" : "/there/projects1/Environments/didascalie-net/span/lib",
-				"patcherrelativepath" : "../../lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "proc-randtransf0.maxpat",
-				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "randtransf0.maxpat",
-				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "randomfR.maxpat",
-				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "randomR.maxpat",
-				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "minmaxi.maxpat",
-				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "odds.maxpat",
-				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "proc-randtransf.maxpat",
-				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "randtransf.maxpat",
-				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/common/common-lib/rand-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "t_del.maxpat",
-				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/tapemovie-lib/modules/audio/processing/del",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/modules/audio/processing/del",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tm_mouse.edit.maxpat",
-				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/tapemovie-lib/modules/devices/mouse",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/modules/devices/mouse",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bkgndp.maxpat",
-				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/tapemovie-lib/common/common-lib/bkgnd-lib",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/common/common-lib/bkgnd-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jsui_textbutton.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/jsui-library",
-				"patcherrelativepath" : "../../../../../../../Applications/Max6/Cycling '74/jsui-library",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "editvar.maxpat",
-				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/tapemovie-lib",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "t_filt.edit.maxpat",
-				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/tapemovie-lib/modules/audio/processing/filt",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/modules/audio/processing/filt",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "t_del.edit.maxpat",
-				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/tapemovie-lib/modules/audio/processing/del",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/modules/audio/processing/del",
+				"bootpath" : "/Users/reno/GITs/tapemovie2/patchers",
+				"patcherrelativepath" : "../../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "changesymbol.maxpat",
-				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/tapemovie-lib/common/common-lib/misc-lib",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/common/common-lib/misc-lib",
+				"bootpath" : "/Users/reno/GITs/tapemovie2/patchers/old/common/common-lib/misc-lib",
+				"patcherrelativepath" : "../../patchers/old/common/common-lib/misc-lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "createfolder.mxo",
+				"name" : "shell.mxo",
 				"type" : "iLaX"
 			}
  ]

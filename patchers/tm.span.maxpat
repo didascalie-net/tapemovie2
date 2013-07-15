@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -42,7 +42,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -652,7 +652,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -1938,7 +1938,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -2395,7 +2395,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -3049,7 +3049,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -3571,7 +3571,7 @@
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 159.5, 225.5, 245.0, 20.0 ],
-									"prefix" : "here:/there/projects1/Environments/didascalie-net/tapemovie2/tapemovie-lib/modules/"
+									"prefix" : "system:/Users/reno/GITs/tapemovie2/patchers/modules/"
 								}
 
 							}
@@ -4451,7 +4451,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -4691,7 +4691,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -4969,13 +4969,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 20.229156, 162.926697, 69.0, 17.0 ],
+					"patching_rect" : [ 20.229156, 162.926697, 76.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "properties.js",
+						"filename" : "jsproperties.js",
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "js properties.js"
+					"text" : "js jsproperties.js"
 				}
 
 			}
@@ -4993,7 +4993,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -5211,7 +5211,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 0,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
