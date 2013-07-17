@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 403.0, 44.0, 1006.0, 807.0 ],
+		"rect" : [ 413.0, 44.0, 1006.0, 807.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -659,7 +659,7 @@
 					"maxclass" : "dict.view",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 376.666626, 210.0, 612.0, 577.5 ]
+					"patching_rect" : [ 376.666626, 209.0, 612.0, 577.5 ]
 				}
 
 			}
