@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 249.0, 44.0, 1161.0, 810.0 ],
+		"rect" : [ 404.0, 44.0, 1161.0, 810.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -65,8 +65,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 875.75, 84.835693, 245.0, 18.0 ],
-					"text" : "setval preferences::paraminstanceformat $1"
+					"patching_rect" : [ 875.75, 84.835693, 213.0, 18.0 ],
+					"text" : "setval system::data::events::format $1"
 				}
 
 			}

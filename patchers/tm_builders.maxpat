@@ -698,7 +698,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 0.0, 44.0, 890.0, 750.0 ],
+										"rect" : [ 321.0, 110.0, 890.0, 750.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -1505,8 +1505,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 77.5, 565.0, 99.0, 20.0 ],
-													"text" : "prepend building"
+													"patching_rect" : [ 77.5, 565.0, 150.0, 20.0 ],
+													"text" : "prepend building editor for"
 												}
 
 											}
