@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 248.0, 44.0, 1161.0, 810.0 ],
+		"rect" : [ 415.0, 44.0, 1161.0, 810.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,7 +37,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 219.5, 388.0, 32.0, 18.0 ],
-					"presentation_rect" : [ 219.5, 389.5, 0.0, 0.0 ],
 					"text" : "state"
 				}
 
@@ -52,7 +51,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 219.5, 346.5, 32.0, 18.0 ],
-					"presentation_rect" : [ 169.5, 373.19281, 0.0, 0.0 ],
 					"text" : "state"
 				}
 
@@ -66,8 +64,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 225.5, 403.0, 20.0, 20.0 ],
-					"presentation_rect" : [ 155.5, 404.19281, 0.0, 0.0 ]
+					"patching_rect" : [ 225.5, 403.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -113,21 +110,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 247.0, 362.19281, 109.0, 18.0 ],
 					"text" : "r /tm/nodes/build/state"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.6, 0.6, 1.0, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-59",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 177.233231, 179.266769, 97.0, 18.0 ],
-					"presentation_rect" : [ 177.233231, 178.709595, 0.0, 0.0 ],
-					"text" : "s /span/project/load"
 				}
 
 			}
@@ -833,7 +815,7 @@
 					"maxclass" : "dict.view",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 376.666626, 210.0, 612.0, 577.5 ]
+					"patching_rect" : [ 376.666626, 215.709595, 612.0, 577.5 ]
 				}
 
 			}
