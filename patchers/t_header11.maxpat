@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 448.0, 85.0, 632.0, 669.0 ],
+		"rect" : [ 388.0, 111.0, 632.0, 669.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1346,7 +1346,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 590.0, 64.0, 630.0, 483.0 ],
+						"rect" : [ 742.0, 44.0, 628.0, 562.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1369,12 +1369,26 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
+									"id" : "obj-12",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 34.0, 47.0, 33.0, 18.0 ],
+									"text" : "defer"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
 									"id" : "obj-13",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "bang" ],
-									"patching_rect" : [ 274.333344, 73.751465, 32.5, 18.0 ],
+									"patching_rect" : [ 274.333344, 118.751465, 32.5, 18.0 ],
 									"text" : "t b b"
 								}
 
@@ -1842,7 +1856,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 339.25, 307.0, 107.0, 18.0 ],
+									"patching_rect" : [ 339.25, 352.0, 107.0, 18.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -1966,7 +1980,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 317.0, 17.0, 62.0, 18.0 ],
+									"patching_rect" : [ 317.0, 62.0, 62.0, 18.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -1993,7 +2007,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 317.0, 67.751465, 111.0, 18.0 ],
+									"patching_rect" : [ 317.0, 112.751465, 111.0, 18.0 ],
 									"text" : "regexp / @substitute ::"
 								}
 
@@ -2007,8 +2021,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 317.0, 38.751465, 73.0, 18.0 ],
-									"text" : "regexp /(.+)"
+									"patching_rect" : [ 317.0, 83.751465, 73.0, 18.0 ],
+									"text" : "regexp /*(.+)"
 								}
 
 							}
@@ -2047,7 +2061,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 96.0, 438.0, 56.0, 20.0 ],
+									"patching_rect" : [ 96.0, 483.0, 56.0, 20.0 ],
 									"text" : "init/done"
 								}
 
@@ -2061,7 +2075,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 159.0, 358.0, 52.0, 20.0 ],
+									"patching_rect" : [ 159.0, 403.0, 52.0, 20.0 ],
 									"text" : "spat/init"
 								}
 
@@ -2075,7 +2089,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 34.0, 438.0, 44.0, 18.0 ],
+									"patching_rect" : [ 34.0, 483.0, 44.0, 18.0 ],
 									"text" : "forward"
 								}
 
@@ -2089,7 +2103,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 52.0, 408.0, 72.0, 18.0 ],
+									"patching_rect" : [ 52.0, 453.0, 72.0, 18.0 ],
 									"text" : "prepend send"
 								}
 
@@ -2103,7 +2117,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 52.0, 385.0, 162.0, 18.0 ],
+									"patching_rect" : [ 52.0, 430.0, 162.0, 18.0 ],
 									"text" : "combine /node/instance / init/done"
 								}
 
@@ -2117,7 +2131,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 96.0, 358.0, 44.0, 18.0 ],
+									"patching_rect" : [ 96.0, 403.0, 44.0, 18.0 ],
 									"text" : "forward"
 								}
 
@@ -2131,7 +2145,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 114.0, 329.0, 72.0, 18.0 ],
+									"patching_rect" : [ 114.0, 374.0, 72.0, 18.0 ],
 									"text" : "prepend send"
 								}
 
@@ -2145,7 +2159,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 114.0, 307.0, 159.0, 18.0 ],
+									"patching_rect" : [ 114.0, 352.0, 159.0, 18.0 ],
 									"text" : "combine /node/instance / spat/init"
 								}
 
@@ -2159,7 +2173,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 34.0, 358.0, 48.0, 18.0 ],
+									"patching_rect" : [ 34.0, 403.0, 48.0, 18.0 ],
 									"text" : "deferlow"
 								}
 
@@ -2171,7 +2185,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 34.0, 215.0, 20.0, 20.0 ]
+									"patching_rect" : [ 34.0, 260.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -2185,7 +2199,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 407.0, 138.5, 150.0, 33.0 ],
+									"patching_rect" : [ 407.0, 183.5, 150.0, 33.0 ],
 									"text" : "sets all parameter values to initval for this instance"
 								}
 
@@ -2199,7 +2213,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 339.25, 282.0, 140.0, 18.0 ],
+									"patching_rect" : [ 339.25, 327.0, 140.0, 18.0 ],
 									"text" : "combine / param @triggers 1"
 								}
 
@@ -2213,7 +2227,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 339.25, 360.0, 45.0, 18.0 ],
+									"patching_rect" : [ 339.25, 405.0, 45.0, 18.0 ],
 									"text" : "forward"
 								}
 
@@ -2227,7 +2241,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 339.25, 253.0, 117.0, 18.0 ],
+									"patching_rect" : [ 339.25, 298.0, 117.0, 18.0 ],
 									"text" : "regexp (::) @substitute /"
 								}
 
@@ -2241,7 +2255,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 339.25, 329.0, 72.0, 18.0 ],
+									"patching_rect" : [ 339.25, 374.0, 72.0, 18.0 ],
 									"text" : "prepend send"
 								}
 
@@ -2255,7 +2269,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 274.333344, 122.0, 51.666656, 18.0 ],
+									"patching_rect" : [ 274.333344, 167.0, 51.666656, 18.0 ],
 									"text" : "t s s"
 								}
 
@@ -2269,7 +2283,7 @@
 									"numinlets" : 4,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 232.0, 146.0, 146.0, 18.0 ],
+									"patching_rect" : [ 232.0, 191.0, 146.0, 18.0 ],
 									"text" : "pak getkeys s class parameter"
 								}
 
@@ -2283,7 +2297,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 274.333344, 99.0, 131.0, 18.0 ],
+									"patching_rect" : [ 274.333344, 144.0, 131.0, 18.0 ],
 									"text" : "combine namespace:: addr"
 								}
 
@@ -2297,7 +2311,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 307.0, 228.0, 148.0, 18.0 ],
+									"patching_rect" : [ 307.0, 273.0, 148.0, 18.0 ],
 									"text" : "regexp namespace::(.+)::initval"
 								}
 
@@ -2312,7 +2326,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "clear", "bang" ],
-									"patching_rect" : [ 228.0, 253.0, 73.0, 18.0 ],
+									"patching_rect" : [ 228.0, 298.0, 73.0, 18.0 ],
 									"text" : "span.requests"
 								}
 
@@ -2326,7 +2340,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 228.0, 228.0, 77.0, 18.0 ],
+									"patching_rect" : [ 228.0, 273.0, 77.0, 18.0 ],
 									"text" : "prepend getval"
 								}
 
@@ -2340,7 +2354,7 @@
 									"numinlets" : 5,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 307.0, 200.0, 301.0, 18.0 ],
+									"patching_rect" : [ 307.0, 245.0, 301.0, 18.0 ],
 									"text" : "combine namespace::node::number :: param :: initval @triggers 2"
 								}
 
@@ -2355,7 +2369,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "clear", "bang" ],
-									"patching_rect" : [ 232.0, 169.0, 73.0, 18.0 ],
+									"patching_rect" : [ 232.0, 214.0, 73.0, 18.0 ],
 									"text" : "span.requests"
 								}
 
@@ -2368,7 +2382,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 45.5, 31.751465, 25.0, 25.0 ]
+									"patching_rect" : [ 34.0, 10.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -2406,6 +2420,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-11", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-13", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-12", 0 ]
 								}
 
 							}
@@ -2618,7 +2641,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-13", 0 ],
+									"destination" : [ "obj-12", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-72", 0 ]

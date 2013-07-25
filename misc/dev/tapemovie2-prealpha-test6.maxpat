@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 351.0, 44.0, 1161.0, 810.0 ],
+		"rect" : [ 248.0, 44.0, 1161.0, 810.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,77 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-70",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 253.5, 290.709595, 85.0, 20.0 ],
+					"text" : "print /del.1/init"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-61",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 219.5, 242.5, 32.5, 18.0 ],
+					"presentation_rect" : [ 217.0, 245.033539, 0.0, 0.0 ],
+					"text" : "set"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-72",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 247.0, 266.033539, 81.0, 18.0 ],
+					"text" : "bang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-69",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 253.5, 230.0, 66.0, 20.0 ],
+					"text" : "r /del.1/init"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-59",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 239.0, 167.5, 89.0, 31.0 ],
+					"text" : ";\r/del.1/init bang"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -1253,6 +1324,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-72", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-61", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1275,6 +1355,24 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-65", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-70", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-69", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-72", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-69", 0 ]
 				}
 
 			}
@@ -1303,6 +1401,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "span.requests.getval.maxpat",
+				"bootpath" : "/there/projects1/Environments/didascalie-net/span/patchers",
+				"patcherrelativepath" : "../../../span/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "dict.dump.maxpat",
 				"bootpath" : "/there/projects1/Environments/didascalie-net/span/patchers",
 				"patcherrelativepath" : "../../../span/patchers",
@@ -1311,6 +1416,13 @@
 			}
 , 			{
 				"name" : "span.requests.contains.maxpat",
+				"bootpath" : "/there/projects1/Environments/didascalie-net/span/patchers",
+				"patcherrelativepath" : "../../../span/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.requests.getparam.maxpat",
 				"bootpath" : "/there/projects1/Environments/didascalie-net/span/patchers",
 				"patcherrelativepath" : "../../../span/patchers",
 				"type" : "JSON",
