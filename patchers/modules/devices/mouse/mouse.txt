@@ -39,6 +39,22 @@ y
 	range 0 1
 	repetition 0
 	clipmode both
+deltax
+	address deltax
+	description "x axis mouse delta position"
+ 	class controller
+	type decimal
+	range -1 1
+	repetition 0
+	clipmode both
+deltay
+	address deltay
+	description "y axis mouse delta position"
+ 	class controller
+	type decimal
+	range -1 1
+	repetition 0
+	clipmode both
 button
 	address button
 	description "mouse button"

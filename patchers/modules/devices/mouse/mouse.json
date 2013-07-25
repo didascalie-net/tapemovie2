@@ -56,6 +56,34 @@
 			"rampfunction" : "none"
 		}
 ,
+		"deltax" : 		{
+			"address" : "deltax",
+			"description" : "x axis mouse delta position",
+			"class" : "controller",
+			"type" : "decimal",
+			"unit" : "none",
+			"initval" : 0,
+			"range" : [ -1, 1 ],
+			"repetition" : 0,
+			"clipmode" : "both",
+			"ramp" : 0,
+			"rampfunction" : "none"
+		}
+,
+		"deltay" : 		{
+			"address" : "deltay",
+			"description" : "y axis mouse delta position",
+			"class" : "controller",
+			"type" : "decimal",
+			"unit" : "none",
+			"initval" : 0,
+			"range" : [ -1, 1 ],
+			"repetition" : 0,
+			"clipmode" : "both",
+			"ramp" : 0,
+			"rampfunction" : "none"
+		}
+,
 		"button" : 		{
 			"address" : "button",
 			"description" : "mouse button",
