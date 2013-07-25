@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 393.0, 44.0, 1161.0, 810.0 ],
+		"rect" : [ 351.0, 44.0, 1161.0, 810.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1304,6 +1304,13 @@
 			}
 , 			{
 				"name" : "dict.dump.maxpat",
+				"bootpath" : "/there/projects1/Environments/didascalie-net/span/patchers",
+				"patcherrelativepath" : "../../../span/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.requests.contains.maxpat",
 				"bootpath" : "/there/projects1/Environments/didascalie-net/span/patchers",
 				"patcherrelativepath" : "../../../span/patchers",
 				"type" : "JSON",
