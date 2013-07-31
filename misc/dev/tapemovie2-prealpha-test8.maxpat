@@ -76,7 +76,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"floatoutput" : 1,
@@ -12782,7 +12781,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "span.param.maxpat",
+				"name" : "span.param.decimal.maxpat",
 				"bootpath" : "/there/projects1/Environments/didascalie-net/span/patchers",
 				"patcherrelativepath" : "../../../span/patchers",
 				"type" : "JSON",
@@ -12825,6 +12824,13 @@
 			}
 , 			{
 				"name" : "mappolytest1.maxpat",
+				"bootpath" : "/there/projects1/Environments/didascalie-net/span/patchers",
+				"patcherrelativepath" : "../../../span/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.param.maxpat",
 				"bootpath" : "/there/projects1/Environments/didascalie-net/span/patchers",
 				"patcherrelativepath" : "../../../span/patchers",
 				"type" : "JSON",
