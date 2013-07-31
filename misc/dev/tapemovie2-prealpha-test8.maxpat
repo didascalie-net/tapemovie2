@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 247.0, 44.0, 1161.0, 810.0 ],
+		"rect" : [ 243.0, 44.0, 1161.0, 810.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 522.0, 44.0, 887.0, 794.0 ],
+						"rect" : [ 522.0, 75.0, 887.0, 794.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -76,6 +76,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"floatoutput" : 1,
@@ -12774,6 +12775,20 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "mappolytest2.maxpat",
+				"bootpath" : "/there/projects1/Environments/didascalie-net/span/patchers",
+				"patcherrelativepath" : "../../../span/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.param.maxpat",
+				"bootpath" : "/there/projects1/Environments/didascalie-net/span/patchers",
+				"patcherrelativepath" : "../../../span/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "tm.span.maxpat",
 				"bootpath" : "/there/projects1/Environments/didascalie-net/tapemovie2/patchers",
 				"patcherrelativepath" : "../../patchers",
@@ -12810,13 +12825,6 @@
 			}
 , 			{
 				"name" : "mappolytest1.maxpat",
-				"bootpath" : "/there/projects1/Environments/didascalie-net/span/patchers",
-				"patcherrelativepath" : "../../../span/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span.param.maxpat",
 				"bootpath" : "/there/projects1/Environments/didascalie-net/span/patchers",
 				"patcherrelativepath" : "../../../span/patchers",
 				"type" : "JSON",
