@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 388.0, 111.0, 632.0, 669.0 ],
+		"rect" : [ 434.0, 91.0, 632.0, 669.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -53,7 +53,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -148,7 +148,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x86"
 										}
 ,
@@ -272,7 +272,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x86"
 										}
 ,
@@ -693,7 +693,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 337.0, 491.0, 47.0, 18.0 ]
+					"patching_rect" : [ 308.5, 491.0, 47.0, 18.0 ]
 				}
 
 			}
@@ -704,11 +704,11 @@
 					"fontsize" : 10.0,
 					"id" : "obj-37",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 271.0, 458.0, 85.0, 18.0 ],
-					"text" : "span.param~ vol"
+					"numinlets" : 2,
+					"numoutlets" : 3,
+					"outlettype" : [ "signal", "float", "" ],
+					"patching_rect" : [ 271.0, 458.0, 94.0, 18.0 ],
+					"text" : "span.param.sig vol"
 				}
 
 			}
@@ -738,7 +738,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -1283,8 +1283,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "" ],
-					"patching_rect" : [ 147.333344, 36.0, 78.0, 18.0 ],
-					"text" : "span.param sw"
+					"patching_rect" : [ 147.333344, 36.0, 92.0, 18.0 ],
+					"text" : "span.param.int sw"
 				}
 
 			}
@@ -1321,10 +1321,10 @@
 					"id" : "obj-44",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "int", "" ],
-					"patching_rect" : [ 456.5, 420.0, 79.0, 18.0 ],
-					"text" : "span.param init"
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 456.5, 420.0, 91.0, 18.0 ],
+					"text" : "span.message init"
 				}
 
 			}
@@ -1342,7 +1342,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -1408,7 +1408,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x86"
 										}
 ,
@@ -1503,7 +1503,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 3,
+															"revision" : 4,
 															"architecture" : "x86"
 														}
 ,
@@ -1627,7 +1627,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 3,
+															"revision" : 4,
 															"architecture" : "x86"
 														}
 ,
@@ -1889,7 +1889,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x86"
 										}
 ,
@@ -2983,7 +2983,7 @@
 					"destination" : [ "obj-39", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 103.500015, 400.0, 78.500008, 400.0, 78.500008, 26.0, 215.833344, 26.0 ],
+					"midpoints" : [ 103.500015, 400.0, 78.500008, 400.0, 78.500008, 26.0, 229.833344, 26.0 ],
 					"source" : [ "obj-210", 0 ]
 				}
 
@@ -2993,7 +2993,7 @@
 					"destination" : [ "obj-44", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 103.500015, 395.5, 526.0, 395.5 ],
+					"midpoints" : [ 103.500015, 395.5, 538.0, 395.5 ],
 					"source" : [ "obj-210", 0 ]
 				}
 

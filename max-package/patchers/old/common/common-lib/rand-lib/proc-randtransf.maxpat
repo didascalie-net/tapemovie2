@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 7
+			"minor" : 1,
+			"revision" : 5,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 575.0, 44.0, 743.0, 623.0 ],
@@ -180,10 +181,10 @@
 					"id" : "obj-53",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "int", "" ],
-					"patching_rect" : [ 135.0, 219.0, 106.0, 18.0 ],
-					"text" : "span.param #1"
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 136.25, 218.0, 125.0, 18.0 ],
+					"text" : "span.param.array #1"
 				}
 
 			}

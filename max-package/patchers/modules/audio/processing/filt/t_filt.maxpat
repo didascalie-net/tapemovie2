@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x86"
 		}
 ,
@@ -28,6 +28,20 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-18",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 201.0, 257.0, 150.0, 20.0 ],
+					"text" : "make boolean !"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -79,9 +93,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "int", "" ],
-					"patching_rect" : [ 549.0, 294.0, 72.0, 18.0 ],
-					"text" : "span.param q"
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 549.0, 294.0, 91.0, 18.0 ],
+					"text" : "span.param.dec q"
 				}
 
 			}
@@ -94,9 +108,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "int", "" ],
-					"patching_rect" : [ 413.0, 294.0, 85.0, 18.0 ],
-					"text" : "span.param gain"
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 413.0, 294.0, 104.0, 18.0 ],
+					"text" : "span.param.dec gain"
 				}
 
 			}
@@ -109,9 +123,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "int", "" ],
-					"patching_rect" : [ 280.0, 316.0, 83.0, 18.0 ],
-					"text" : "span.param freq"
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 280.0, 316.0, 102.0, 18.0 ],
+					"text" : "span.param.dec freq"
 				}
 
 			}
@@ -125,8 +139,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "" ],
-					"patching_rect" : [ 180.0, 277.0, 115.0, 18.0 ],
-					"text" : "span.param gainenable"
+					"patching_rect" : [ 180.0, 277.0, 128.0, 18.0 ],
+					"text" : "span.param.int gainenable"
 				}
 
 			}
@@ -138,10 +152,10 @@
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "int", "" ],
-					"patching_rect" : [ 71.0, 243.0, 91.0, 18.0 ],
-					"text" : "span.param mode"
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 71.0, 243.0, 119.0, 18.0 ],
+					"text" : "span.param.enum mode"
 				}
 
 			}
@@ -467,7 +481,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -505,7 +519,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x86"
 										}
 ,
@@ -870,7 +884,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
