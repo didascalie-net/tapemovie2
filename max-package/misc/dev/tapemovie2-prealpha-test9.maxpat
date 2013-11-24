@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -28,6 +28,64 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"color" : [ 0.6, 0.6, 1.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-69",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1051.083374, 186.606262, 81.0, 18.0 ],
+					"text" : "s /span/verbose"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-73",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 934.75, 161.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 931.416626, 158.926697, 0.0, 0.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-75",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 959.5, 161.0, 175.0, 18.0 ],
+					"presentation_rect" : [ 956.166626, 158.926697, 0.0, 0.0 ],
+					"text" : "setval preferences::verbose $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.0, 1.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-76",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "clear", "bang" ],
+					"patching_rect" : [ 959.5, 185.606262, 86.0, 20.0 ],
+					"presentation_rect" : [ 956.166626, 183.532959, 0.0, 0.0 ],
+					"text" : "span.requests"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -107,7 +165,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -675,7 +733,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x86"
 										}
 ,
@@ -1144,7 +1202,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 5,
+															"revision" : 6,
 															"architecture" : "x86"
 														}
 ,
@@ -1282,7 +1340,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 5,
+															"revision" : 6,
 															"architecture" : "x86"
 														}
 ,
@@ -1348,7 +1406,7 @@
 																		"appversion" : 																		{
 																			"major" : 6,
 																			"minor" : 1,
-																			"revision" : 5,
+																			"revision" : 6,
 																			"architecture" : "x86"
 																		}
 ,
@@ -1498,7 +1556,7 @@
 																						"appversion" : 																						{
 																							"major" : 6,
 																							"minor" : 1,
-																							"revision" : 5,
+																							"revision" : 6,
 																							"architecture" : "x86"
 																						}
 ,
@@ -1901,7 +1959,7 @@
 																		"appversion" : 																		{
 																			"major" : 6,
 																			"minor" : 1,
-																			"revision" : 5,
+																			"revision" : 6,
 																			"architecture" : "x86"
 																		}
 ,
@@ -2051,7 +2109,7 @@
 																						"appversion" : 																						{
 																							"major" : 6,
 																							"minor" : 1,
-																							"revision" : 5,
+																							"revision" : 6,
 																							"architecture" : "x86"
 																						}
 ,
@@ -2454,7 +2512,7 @@
 																		"appversion" : 																		{
 																			"major" : 6,
 																			"minor" : 1,
-																			"revision" : 5,
+																			"revision" : 6,
 																			"architecture" : "x86"
 																		}
 ,
@@ -2604,7 +2662,7 @@
 																						"appversion" : 																						{
 																							"major" : 6,
 																							"minor" : 1,
-																							"revision" : 5,
+																							"revision" : 6,
 																							"architecture" : "x86"
 																						}
 ,
@@ -3007,7 +3065,7 @@
 																		"appversion" : 																		{
 																			"major" : 6,
 																			"minor" : 1,
-																			"revision" : 5,
+																			"revision" : 6,
 																			"architecture" : "x86"
 																		}
 ,
@@ -3157,7 +3215,7 @@
 																						"appversion" : 																						{
 																							"major" : 6,
 																							"minor" : 1,
-																							"revision" : 5,
+																							"revision" : 6,
 																							"architecture" : "x86"
 																						}
 ,
@@ -3560,7 +3618,7 @@
 																		"appversion" : 																		{
 																			"major" : 6,
 																			"minor" : 1,
-																			"revision" : 5,
+																			"revision" : 6,
 																			"architecture" : "x86"
 																		}
 ,
@@ -3710,7 +3768,7 @@
 																						"appversion" : 																						{
 																							"major" : 6,
 																							"minor" : 1,
-																							"revision" : 5,
+																							"revision" : 6,
 																							"architecture" : "x86"
 																						}
 ,
@@ -4113,7 +4171,7 @@
 																		"appversion" : 																		{
 																			"major" : 6,
 																			"minor" : 1,
-																			"revision" : 5,
+																			"revision" : 6,
 																			"architecture" : "x86"
 																		}
 ,
@@ -4263,7 +4321,7 @@
 																						"appversion" : 																						{
 																							"major" : 6,
 																							"minor" : 1,
-																							"revision" : 5,
+																							"revision" : 6,
 																							"architecture" : "x86"
 																						}
 ,
@@ -4666,7 +4724,7 @@
 																		"appversion" : 																		{
 																			"major" : 6,
 																			"minor" : 1,
-																			"revision" : 5,
+																			"revision" : 6,
 																			"architecture" : "x86"
 																		}
 ,
@@ -4816,7 +4874,7 @@
 																						"appversion" : 																						{
 																							"major" : 6,
 																							"minor" : 1,
-																							"revision" : 5,
+																							"revision" : 6,
 																							"architecture" : "x86"
 																						}
 ,
@@ -5219,7 +5277,7 @@
 																		"appversion" : 																		{
 																			"major" : 6,
 																			"minor" : 1,
-																			"revision" : 5,
+																			"revision" : 6,
 																			"architecture" : "x86"
 																		}
 ,
@@ -5369,7 +5427,7 @@
 																						"appversion" : 																						{
 																							"major" : 6,
 																							"minor" : 1,
-																							"revision" : 5,
+																							"revision" : 6,
 																							"architecture" : "x86"
 																						}
 ,
@@ -5772,7 +5830,7 @@
 																		"appversion" : 																		{
 																			"major" : 6,
 																			"minor" : 1,
-																			"revision" : 5,
+																			"revision" : 6,
 																			"architecture" : "x86"
 																		}
 ,
@@ -5922,7 +5980,7 @@
 																						"appversion" : 																						{
 																							"major" : 6,
 																							"minor" : 1,
-																							"revision" : 5,
+																							"revision" : 6,
 																							"architecture" : "x86"
 																						}
 ,
@@ -6325,7 +6383,7 @@
 																		"appversion" : 																		{
 																			"major" : 6,
 																			"minor" : 1,
-																			"revision" : 5,
+																			"revision" : 6,
 																			"architecture" : "x86"
 																		}
 ,
@@ -6475,7 +6533,7 @@
 																						"appversion" : 																						{
 																							"major" : 6,
 																							"minor" : 1,
-																							"revision" : 5,
+																							"revision" : 6,
 																							"architecture" : "x86"
 																						}
 ,
@@ -6878,7 +6936,7 @@
 																		"appversion" : 																		{
 																			"major" : 6,
 																			"minor" : 1,
-																			"revision" : 5,
+																			"revision" : 6,
 																			"architecture" : "x86"
 																		}
 ,
@@ -8117,7 +8175,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 5,
+															"revision" : 6,
 															"architecture" : "x86"
 														}
 ,
@@ -8212,7 +8270,7 @@
 																		"appversion" : 																		{
 																			"major" : 6,
 																			"minor" : 1,
-																			"revision" : 5,
+																			"revision" : 6,
 																			"architecture" : "x86"
 																		}
 ,
@@ -8336,7 +8394,7 @@
 																		"appversion" : 																		{
 																			"major" : 6,
 																			"minor" : 1,
-																			"revision" : 5,
+																			"revision" : 6,
 																			"architecture" : "x86"
 																		}
 ,
@@ -11662,7 +11720,7 @@
 					"maxclass" : "dict.view",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 498.166626, 219.709595, 612.0, 577.5 ]
+					"patching_rect" : [ 498.166626, 219.70961, 612.0, 577.5 ]
 				}
 
 			}
@@ -12145,10 +12203,46 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-69", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-73", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-75", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-73", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-70", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-74", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-75", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-76", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-75", 0 ]
 				}
 
 			}
@@ -12255,8 +12349,8 @@
 			}
 , 			{
 				"name" : "span.param.dec.dyn.maxpat",
-				"bootpath" : "/there/projects/Environments/didascalie-net/span/max-package/patchers",
-				"patcherrelativepath" : "../../../../span/max-package/patchers",
+				"bootpath" : "/there/projects/Environments/didascalie-net/span/max-package/patchers/params",
+				"patcherrelativepath" : "../../../../span/max-package/patchers/params",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -12278,195 +12372,6 @@
 				"name" : "tm_builders.maxpat",
 				"bootpath" : "/there/projects/Environments/didascalie-net/tapemovie2/max-package/patchers",
 				"patcherrelativepath" : "../../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tm_mouse.maxpat",
-				"bootpath" : "/there/projects/Environments/didascalie-net/tapemovie2/max-package/patchers/modules/devices/mouse",
-				"patcherrelativepath" : "../../patchers/modules/devices/mouse",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span.control.maxpat",
-				"bootpath" : "/there/projects/Environments/didascalie-net/span/max-package/patchers",
-				"patcherrelativepath" : "../../../../span/max-package/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tm_header.maxpat",
-				"bootpath" : "/there/projects/Environments/didascalie-net/tapemovie2/max-package/patchers",
-				"patcherrelativepath" : "../../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span.message.maxpat",
-				"bootpath" : "/there/projects/Environments/didascalie-net/span/max-package/patchers",
-				"patcherrelativepath" : "../../../../span/max-package/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span.param.maxpat",
-				"bootpath" : "/there/projects/Environments/didascalie-net/span/max-package/patchers",
-				"patcherrelativepath" : "../../../../span/max-package/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "t_filt.maxpat",
-				"bootpath" : "/there/projects/Environments/didascalie-net/tapemovie2/max-package/patchers/modules/audio/processing/filt",
-				"patcherrelativepath" : "../../patchers/modules/audio/processing/filt",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "t_header11.maxpat",
-				"bootpath" : "/there/projects/Environments/didascalie-net/tapemovie2/max-package/patchers",
-				"patcherrelativepath" : "../../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span.param.int.maxpat",
-				"bootpath" : "/there/projects/Environments/didascalie-net/span/max-package/patchers",
-				"patcherrelativepath" : "../../../../span/max-package/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span.param.sig.maxpat",
-				"bootpath" : "/there/projects/Environments/didascalie-net/span/max-package/patchers",
-				"patcherrelativepath" : "../../../../span/max-package/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "proc-randtransf0.maxpat",
-				"bootpath" : "/there/projects/Environments/didascalie-net/tapemovie2/max-package/patchers/old/common/common-lib/rand-lib",
-				"patcherrelativepath" : "../../patchers/old/common/common-lib/rand-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "randtransf0.maxpat",
-				"bootpath" : "/there/projects/Environments/didascalie-net/tapemovie2/max-package/patchers/old/common/common-lib/rand-lib",
-				"patcherrelativepath" : "../../patchers/old/common/common-lib/rand-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "randomfR.maxpat",
-				"bootpath" : "/there/projects/Environments/didascalie-net/tapemovie2/max-package/patchers/old/common/common-lib/rand-lib",
-				"patcherrelativepath" : "../../patchers/old/common/common-lib/rand-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "randomR.maxpat",
-				"bootpath" : "/there/projects/Environments/didascalie-net/tapemovie2/max-package/patchers/old/common/common-lib/rand-lib",
-				"patcherrelativepath" : "../../patchers/old/common/common-lib/rand-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "minmaxi.maxpat",
-				"bootpath" : "/there/projects/Environments/didascalie-net/tapemovie2/max-package/patchers/old/common/common-lib/rand-lib",
-				"patcherrelativepath" : "../../patchers/old/common/common-lib/rand-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "odds.maxpat",
-				"bootpath" : "/there/projects/Environments/didascalie-net/tapemovie2/max-package/patchers/old/common/common-lib/rand-lib",
-				"patcherrelativepath" : "../../patchers/old/common/common-lib/rand-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span.param.array.maxpat",
-				"bootpath" : "/there/projects/Environments/didascalie-net/span/max-package/patchers",
-				"patcherrelativepath" : "../../../../span/max-package/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "proc-randtransf.maxpat",
-				"bootpath" : "/there/projects/Environments/didascalie-net/tapemovie2/max-package/patchers/old/common/common-lib/rand-lib",
-				"patcherrelativepath" : "../../patchers/old/common/common-lib/rand-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "randtransf.maxpat",
-				"bootpath" : "/there/projects/Environments/didascalie-net/tapemovie2/max-package/patchers/old/common/common-lib/rand-lib",
-				"patcherrelativepath" : "../../patchers/old/common/common-lib/rand-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span.param.enum.maxpat",
-				"bootpath" : "/there/projects/Environments/didascalie-net/span/max-package/patchers",
-				"patcherrelativepath" : "../../../../span/max-package/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span.param.dec.maxpat",
-				"bootpath" : "/there/projects/Environments/didascalie-net/span/max-package/patchers",
-				"patcherrelativepath" : "../../../../span/max-package/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "t_del.maxpat",
-				"bootpath" : "/there/projects/Environments/didascalie-net/tapemovie2/max-package/patchers/modules/audio/processing/del",
-				"patcherrelativepath" : "../../patchers/modules/audio/processing/del",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tm_mouse.edit.maxpat",
-				"bootpath" : "/there/projects/Environments/didascalie-net/tapemovie2/max-package/patchers/modules/devices/mouse",
-				"patcherrelativepath" : "../../patchers/modules/devices/mouse",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bkgndp.maxpat",
-				"bootpath" : "/there/projects/Environments/didascalie-net/tapemovie2/max-package/patchers",
-				"patcherrelativepath" : "../../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jsui_textbutton.js",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/jsui-library",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/jsui-library",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "editvar.maxpat",
-				"bootpath" : "/there/projects/Environments/didascalie-net/tapemovie2/max-package/patchers",
-				"patcherrelativepath" : "../../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "t_filt.edit.maxpat",
-				"bootpath" : "/there/projects/Environments/didascalie-net/tapemovie2/max-package/patchers/modules/audio/processing/filt",
-				"patcherrelativepath" : "../../patchers/modules/audio/processing/filt",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "t_del.edit.maxpat",
-				"bootpath" : "/there/projects/Environments/didascalie-net/tapemovie2/max-package/patchers/modules/audio/processing/del",
-				"patcherrelativepath" : "../../patchers/modules/audio/processing/del",
 				"type" : "JSON",
 				"implicit" : 1
 			}

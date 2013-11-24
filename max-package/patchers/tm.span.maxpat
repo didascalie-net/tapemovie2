@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -99,7 +99,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -151,7 +151,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 6,
 											"architecture" : "x86"
 										}
 ,
@@ -246,7 +246,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 3,
+															"revision" : 6,
 															"architecture" : "x86"
 														}
 ,
@@ -370,7 +370,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 3,
+															"revision" : 6,
 															"architecture" : "x86"
 														}
 ,
@@ -1002,7 +1002,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -1049,7 +1049,6 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "bang", "bang", "" ],
 									"patching_rect" : [ 840.0, 277.0, 46.0, 18.0 ],
-									"presentation_rect" : [ 771.666626, 271.0, 0.0, 0.0 ],
 									"text" : "sel 1 0"
 								}
 
@@ -1064,7 +1063,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 839.5, 309.0, 110.75, 18.0 ],
-									"presentation_rect" : [ 771.666626, 307.0, 0.0, 0.0 ],
 									"text" : "zl reg"
 								}
 
@@ -1108,7 +1106,6 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "clear", "bang" ],
 									"patching_rect" : [ 840.0, 254.0, 73.0, 18.0 ],
-									"presentation_rect" : [ 842.0, 256.0, 0.0, 0.0 ],
 									"text" : "span.requests"
 								}
 
@@ -1152,7 +1149,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 651.166626, 332.0, 40.0, 20.0 ],
-									"presentation_rect" : [ 591.666626, 313.0, 0.0, 0.0 ],
 									"text" : "zl reg"
 								}
 
@@ -1210,7 +1206,6 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "clear", "bang" ],
 									"patching_rect" : [ 472.666626, 274.0, 86.0, 20.0 ],
-									"presentation_rect" : [ 487.666626, 277.0, 0.0, 0.0 ],
 									"text" : "span.requests"
 								}
 
@@ -1244,7 +1239,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 6,
 											"architecture" : "x86"
 										}
 ,
@@ -1339,7 +1334,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 3,
+															"revision" : 6,
 															"architecture" : "x86"
 														}
 ,
@@ -1463,7 +1458,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 3,
+															"revision" : 6,
 															"architecture" : "x86"
 														}
 ,
@@ -1693,7 +1688,6 @@
 									}
 ,
 									"patching_rect" : [ 839.5, 515.0, 127.0, 20.0 ],
-									"presentation_rect" : [ 837.166626, 408.467041, 0.0, 0.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -1726,7 +1720,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 6,
 											"architecture" : "x86"
 										}
 ,
@@ -1818,7 +1812,6 @@
 									}
 ,
 									"patching_rect" : [ 827.5, 108.0, 62.0, 18.0 ],
-									"presentation_rect" : [ 743.666626, 142.0, 0.0, 0.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -1846,7 +1839,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 732.166626, 8.0, 40.0, 18.0 ],
-									"presentation_rect" : [ 717.666626, 48.467041, 0.0, 0.0 ],
 									"text" : "/del.1"
 								}
 
@@ -1861,7 +1853,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 732.166626, 40.467041, 40.0, 18.0 ],
-									"presentation_rect" : [ 717.666626, 75.0, 0.0, 0.0 ],
 									"text" : "/del/2"
 								}
 
@@ -1881,7 +1872,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 6,
 											"architecture" : "x86"
 										}
 ,
@@ -1976,7 +1967,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 3,
+															"revision" : 6,
 															"architecture" : "x86"
 														}
 ,
@@ -2100,7 +2091,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 3,
+															"revision" : 6,
 															"architecture" : "x86"
 														}
 ,
@@ -2357,7 +2348,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 421.666626, 34.0, 40.0, 18.0 ],
-									"presentation_rect" : [ 424.666626, 55.0, 0.0, 0.0 ],
 									"text" : "/del/1"
 								}
 
@@ -2372,7 +2362,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 381.666626, 34.0, 40.0, 18.0 ],
-									"presentation_rect" : [ 491.166626, 76.0, 0.0, 0.0 ],
 									"text" : "/del.2"
 								}
 
@@ -2392,7 +2381,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 6,
 											"architecture" : "x86"
 										}
 ,
@@ -2484,7 +2473,6 @@
 									}
 ,
 									"patching_rect" : [ 472.666626, 107.0, 72.0, 20.0 ],
-									"presentation_rect" : [ 470.555542, 83.0, 0.0, 0.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -2512,7 +2500,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 48.666626, 53.0, 36.0, 18.0 ],
-									"presentation_rect" : [ 22.166626, 41.0, 0.0, 0.0 ],
 									"text" : "/filt.1"
 								}
 
@@ -2532,7 +2519,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 6,
 											"architecture" : "x86"
 										}
 ,
@@ -2684,7 +2671,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 6,
 											"architecture" : "x86"
 										}
 ,
@@ -4670,7 +4657,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -5280,7 +5267,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 6,
 											"architecture" : "x86"
 										}
 ,
@@ -6566,7 +6553,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -7023,7 +7010,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -7677,7 +7664,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 6,
 											"architecture" : "x86"
 										}
 ,
@@ -8199,7 +8186,7 @@
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 159.5, 225.5, 245.0, 20.0 ],
-									"prefix" : "here:/there/projects1/Environments/didascalie-net/tapemovie2/patchers/modules/"
+									"prefix" : "here:/there/projects/Environments/didascalie-net/tapemovie2/max-package/patchers/modules/"
 								}
 
 							}
@@ -9064,7 +9051,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -9304,7 +9291,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -9606,7 +9593,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -9680,34 +9667,6 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 532.0625, 208.0, 63.0, 20.0 ],
 									"text" : "dict.dump"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-11",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 411.177063, 96.0, 112.0, 18.0 ],
-									"text" : "creating tapemovie"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"color" : [ 0.0, 0.501961, 1.0, 1.0 ],
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
-									"id" : "obj-76",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 411.177063, 118.5, 54.0, 18.0 ],
-									"text" : "s /tm/print"
 								}
 
 							}
@@ -9824,7 +9783,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 6,
 											"architecture" : "x86"
 										}
 ,
@@ -10149,7 +10108,7 @@
 									"data" : 									{
 										"system" : 										{
 											"tapemovie" : 											{
-												"credits" : "produced by didascalie.net & developped by Tom Mays & Renaud Rubiano",
+												"credits" : "Tom Mays & Renaud Rubiano / didascalie.net",
 												"license" : "GNU-LGPL",
 												"status" : "alpha",
 												"version" : 												{
@@ -10332,7 +10291,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 683.0625, 108.0, 119.0, 33.0 ],
+									"patching_rect" : [ 683.0625, 108.0, 122.0, 33.0 ],
 									"text" : "tapemovie structure : open to edit"
 								}
 
@@ -10375,7 +10334,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 208.899323, 580.696411, 328.77774, 17.0 ],
-									"text" : "sprintf tapemovie %d.%d.%d %s %s"
+									"text" : "sprintf creating tapemovie %d.%d.%d %s %s"
 								}
 
 							}
@@ -10565,7 +10524,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 122.453117, 138.5, 162.0, 39.0 ],
+									"patching_rect" : [ 122.453117, 138.5, 162.0, 38.0 ],
 									"text" : ";\rgetappname bang;\rmax sendapppath sendapppathtm"
 								}
 
@@ -10631,15 +10590,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-10", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-76", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-11", 0 ]
 								}
 
 							}
@@ -10760,15 +10710,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-3", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-11", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-30", 0 ]
 								}
 
 							}
