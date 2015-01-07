@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
@@ -36,8 +36,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 19.520821, 489.0, 85.0, 27.0 ],
-					"text" : "t_matrix~"
+					"patching_rect" : [ 19.520821, 489.0, 125.0, 27.0 ],
+					"text" : "t_matrix~ mtrx"
 				}
 
 			}
@@ -99,7 +99,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -151,7 +151,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -246,7 +246,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 6,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -370,7 +370,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 6,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -1002,7 +1002,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -1239,7 +1239,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -1334,7 +1334,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 6,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -1458,7 +1458,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 6,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -1720,7 +1720,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -1872,7 +1872,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -1967,7 +1967,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 6,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -2091,7 +2091,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 6,
+															"revision" : 9,
 															"architecture" : "x86"
 														}
 ,
@@ -2381,7 +2381,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -2519,7 +2519,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -2671,7 +2671,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -4657,7 +4657,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -5267,7 +5267,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -6553,7 +6553,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -7010,7 +7010,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -7664,7 +7664,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -8179,14 +8179,14 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-18",
-									"items" : [ "audio", ",", "audio/processing", ",", "audio/processing/del", ",", "audio/processing/del/del.json", ",", "audio/processing/del/del.txt", ",", "audio/processing/del/t_del.edit.maxpat", ",", "audio/processing/del/t_del.maxpat", ",", "audio/processing/filt", ",", "audio/processing/filt/filt.json", ",", "audio/processing/filt/filt.txt", ",", "audio/processing/filt/t_filt.edit.maxpat", ",", "audio/processing/filt/t_filt.maxpat", ",", "controls", ",", "controls/ctlmap", ",", "controls/ctlmap/ctlmap.json", ",", "controls/ctlmap/ctlmap.txt", ",", "controls/events", ",", "controls/events/events.json", ",", "controls/events/events.txt", ",", "controls/events/tm_events copy.maxpat", ",", "controls/events/tm_events.edit copy.maxpat", ",", "controls/events/tm_events.edit.maxpat", ",", "controls/events/tm_events.maxpat", ",", "controls/oscreceive", ",", "controls/oscreceive/oscreceive.json", ",", "controls/oscreceive/oscreceive.txt", ",", "controls/oscreceive/tm_oscreceive.maxpat", ",", "controls/oscsend", ",", "controls/oscsend/oscsend.json", ",", "controls/oscsend/oscsend.txt", ",", "controls/oscsend/tm_oscsend.maxpat", ",", "devices", ",", "devices/modul8", ",", "devices/modul8/modul8.json", ",", "devices/modul8/modul8.txt", ",", "devices/modul8/tm_modul8.edit.maxpat", ",", "devices/modul8/tm_modul8.maxpat", ",", "devices/mouse", ",", "devices/mouse/mouse.json", ",", "devices/mouse/mouse.txt", ",", "devices/mouse/tm_mouse.edit.maxpat", ",", "devices/mouse/tm_mouse.maxpat" ],
+									"items" : [ "audio", ",", "audio/processing", ",", "audio/processing/del", ",", "audio/processing/del/del.json", ",", "audio/processing/del/del.txt", ",", "audio/processing/del/t_del.edit.maxpat", ",", "audio/processing/del/t_del.maxpat", ",", "audio/processing/filt", ",", "audio/processing/filt/filt.json", ",", "audio/processing/filt/filt.txt", ",", "audio/processing/filt/t_filt.edit.maxpat", ",", "audio/processing/filt/t_filt.maxpat", ",", "controls", ",", "devices", ",", "devices/mouse", ",", "devices/mouse/mouse.json", ",", "devices/mouse/mouse.txt", ",", "devices/mouse/tm_mouse.edit.maxpat", ",", "devices/mouse/tm_mouse.maxpat" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 159.5, 225.5, 245.0, 20.0 ],
-									"prefix" : "here:/there/projects/Environments/didascalie-net/tapemovie2/max-package/patchers/modules/"
+									"prefix" : "here:/Applications/Max 6.1/packages/tapemovie-package/patchers/modules/"
 								}
 
 							}
@@ -9051,7 +9051,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -9291,7 +9291,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -9593,7 +9593,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -9626,7 +9626,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 586.0, 53.0, 236.0, 16.0 ],
-									"presentation_rect" : [ 587.0, 47.5, 0.0, 0.0 ],
 									"text" : "replace system::projectstructure::system::data::osc"
 								}
 
@@ -9641,7 +9640,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 572.0, 22.5, 264.0, 16.0 ],
-									"presentation_rect" : [ 442.0, 64.0, 0.0, 0.0 ],
 									"text" : "replace system::projectstructure::system::projectstructure"
 								}
 
@@ -9813,7 +9811,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -10180,20 +10178,7 @@
 
 												}
 ,
-												"system" : 												{
-													"projectstructure" : 													{
-
-													}
-,
-													"data" : 													{
-														"osc" : 														{
-
-														}
-
-													}
-
-												}
-
+												"system" : [ "projectstructure", "data" ]
 											}
 
 										}
