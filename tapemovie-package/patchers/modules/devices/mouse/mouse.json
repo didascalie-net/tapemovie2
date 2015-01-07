@@ -1,0 +1,103 @@
+{
+	"mouse" : 	{
+		"active" : 1,
+		"quantity" : 0,
+		"tags" : [ "device", "control" ],
+		"filename" : "tm_mouse",
+		"editordim" : [ 1, 1 ],
+		"description" : "mouse as controller",
+		"path" : "",
+		"init" : 		{
+			"address" : "init",
+			"description" : "initialize module",
+			"class" : "message",
+			"type" : "bang"
+		}
+,
+		"sw" : 		{
+			"address" : "sw",
+			"description" : "on/off switch",
+			"class" : "parameter",
+			"type" : "boolean",
+			"unit" : "none",
+			"initval" : 0,
+			"range" : [ 0, 1 ],
+			"repetition" : 0,
+			"clipmode" : "both",
+			"ramp" : 0,
+			"rampfunction" : "none"
+		}
+,
+		"x" : 		{
+			"address" : "x",
+			"description" : "x axis mouse position",
+			"class" : "controller",
+			"type" : "decimal",
+			"unit" : "none",
+			"initval" : 0,
+			"range" : [ 0, 1 ],
+			"repetition" : 0,
+			"clipmode" : "both",
+			"ramp" : 0,
+			"rampfunction" : "none"
+		}
+,
+		"y" : 		{
+			"address" : "y",
+			"description" : "y axis mouse position",
+			"class" : "controller",
+			"type" : "decimal",
+			"unit" : "none",
+			"initval" : 0,
+			"range" : [ 0, 1 ],
+			"repetition" : 0,
+			"clipmode" : "both",
+			"ramp" : 0,
+			"rampfunction" : "none"
+		}
+,
+		"deltax" : 		{
+			"address" : "deltax",
+			"description" : "x axis mouse delta position",
+			"class" : "controller",
+			"type" : "decimal",
+			"unit" : "none",
+			"initval" : 0,
+			"range" : [ -1, 1 ],
+			"repetition" : 0,
+			"clipmode" : "both",
+			"ramp" : 0,
+			"rampfunction" : "none"
+		}
+,
+		"deltay" : 		{
+			"address" : "deltay",
+			"description" : "y axis mouse delta position",
+			"class" : "controller",
+			"type" : "decimal",
+			"unit" : "none",
+			"initval" : 0,
+			"range" : [ -1, 1 ],
+			"repetition" : 0,
+			"clipmode" : "both",
+			"ramp" : 0,
+			"rampfunction" : "none"
+		}
+,
+		"button" : 		{
+			"address" : "button",
+			"description" : "mouse button",
+			"class" : "controller",
+			"type" : "boolean",
+			"unit" : "none",
+			"initval" : 0,
+			"range" : [ 0, 1 ],
+			"repetition" : 0,
+			"clipmode" : "both",
+			"ramp" : 0,
+			"rampfunction" : "none"
+		}
+
+	}
+
+}
